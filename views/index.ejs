@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataspillhelter</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+        .hero { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
+        .hero h3 { margin: 0; }
+        .actions { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Dataspillhelter</h1>
+    <a href="/heroes">View All Heroes</a> | <a href="/heroes/new">Add New Hero</a> | <a href="/heroes/search">Search Heroes</a>
+    <h2>All Heroes</h2>
+    <% heroes.forEach(hero => { %>
+        <div class="hero">
+            <h3><%= hero.alterEgo %></h3>
+            <p><strong>Real Name:</strong> <%= hero.realName %></p>
+            <p><strong>Alignment:</strong> <%= hero.alignment %></p>
+            <p><strong>Citizenship:</strong> <%= hero.citizenship %></p>
+            <div class="actions">
+                <a href="/heroes/<%= hero._id %>">View Details</a> |
+                <a href="/heroes/<%= hero._id %>/edit">Edit</a> |
+                <form action="/heroes/<%= hero._id %>?_method=DELETE" method="POST" style="display:inline;">
+                    <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
+                </form>
+            </div>
+        </div>
+    <% }) %>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "assignment-1-mvc-and-crud",
+  "version": "1.0.0",
+  "description": "Du skal lage en webapplikasjon som lar brukeren se, legge til, redigere og slette **dataspillhelter**.  \r Prosjektet skal bruke **Node.js**, **Express**, **MongoDB** og **EJS**, og følge prinsippene for **MVC-arkitektur**.",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"Hello World\"",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.ikt-fag.no/ita-2026/assignment-1-mvc-and-crud.git"
+  },
+  "author": "Dawid",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,3352 @@
+[
+  {
+    "alterEgo": "Rapid Raven",
+    "realName": "unknown",
+    "age": 15,
+    "birthYear": 2010,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "cunning",
+      "stoneSkin"
+    ],
+    "associates": [
+      "Grumpy Construct"
+    ],
+    "enemies": [
+      "Bouncy Lattice",
+      "Bouncy Janitor",
+      "Cosmic Drone"
+    ],
+    "nemesis": "Turbo Seal",
+    "citizenship": "South Korea",
+    "backgroundStory": "Rapid Raven never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Frozen Dawn, when Turbo Seal stepped across the line. Grumpy Construct reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sly Seal",
+    "realName": "Hilda Penguin",
+    "age": 30,
+    "birthYear": 1995,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "echoLocator",
+      "tactics",
+      "immortality",
+      "aquaBreath"
+    ],
+    "associates": [
+      "Electric Detective"
+    ],
+    "enemies": [],
+    "nemesis": "Odd Bear",
+    "citizenship": "Peru",
+    "backgroundStory": "Sly Seal prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Hivemind Murmur, when Odd Bear stepped across the line. Electric Detective reminds them that speed without sense is just noise. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Neon Raven",
+    "realName": "Eirik Falcon",
+    "age": 17,
+    "birthYear": 2008,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "immortality",
+      "echoLocator",
+      "superStrength"
+    ],
+    "associates": [
+      "Shadow Pilot",
+      "Arcane Mouse"
+    ],
+    "enemies": [
+      "Rapid Seal",
+      "Arcane Courier"
+    ],
+    "nemesis": null,
+    "citizenship": "Bangladesh",
+    "backgroundStory": "Rumor says Neon Raven trained where maps fade and names blur. A knack for immortality became a habit; a habit became a legend. Maps change, but Shadow Pilot still meets them at the quiet corners. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Odd Bear",
+    "realName": "Diego Lynx",
+    "age": 38,
+    "birthYear": 1987,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "superStrength",
+      "tactics"
+    ],
+    "associates": [
+      "Lofty Mechanic",
+      "Turbo Teacher",
+      "Solar Artist"
+    ],
+    "enemies": [
+      "Brave Postman",
+      "Neon Chancellor 76"
+    ],
+    "nemesis": "Sly Seal",
+    "citizenship": "Iceland",
+    "backgroundStory": "Odd Bear never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. the Hivemind Murmur drew a bright circle; Sly Seal stood on the far side of it. Maps change, but Turbo Teacher still meets them at the quiet corners. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Silent Hawk",
+    "realName": "Nils Goat",
+    "age": 33,
+    "birthYear": 1992,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep"
+    ],
+    "associates": [
+      "Silver Fox",
+      "Brave Mole"
+    ],
+    "enemies": [
+      "Grumpy Composer",
+      "Odd Oracle",
+      "Sneaky Penguin"
+    ],
+    "nemesis": "Bouncy Blob",
+    "citizenship": "Czechia",
+    "backgroundStory": "Every road bent a little when Silent Hawk passed by. Practice made patterns; patterns made plans. On the night of the Neon Fog, the feud with Bouncy Blob began in earnest. Silver Fox reminds them that speed without sense is just noise. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Hollow Raven",
+    "realName": "Silas Cat",
+    "age": 10,
+    "birthYear": 2015,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "flight"
+    ],
+    "associates": [
+      "Lunar Scribe",
+      "Solar Oracle"
+    ],
+    "enemies": [
+      "Shadow Carp",
+      "Lofty Farmer"
+    ],
+    "nemesis": "Brave Mole",
+    "citizenship": "USA",
+    "backgroundStory": "Hollow Raven never aimed for fame; the world kept finding them. A knack for flight became a habit; a habit became a legend. the Quiet Uprising drew a bright circle; Brave Mole stood on the far side of it. Lunar Scribe reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Golden Sparrow",
+    "realName": "unknown",
+    "age": 9,
+    "birthYear": 2016,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "shadowStep"
+    ],
+    "associates": [
+      "Velvet Walrus",
+      "Lunar Moose",
+      "Sneaky Blob 39",
+      "Turbo Teacher",
+      "Shadow Warmind"
+    ],
+    "enemies": [
+      "Bouncy Eagle",
+      "Stormy Composer",
+      "Silver Blob 39"
+    ],
+    "nemesis": null,
+    "citizenship": "Egypt",
+    "backgroundStory": "Golden Sparrow prefers the edges of things—alleys, archives, antenna arrays. Old machines and older myths both answered when Golden Sparrow called. Maps change, but Sneaky Blob 39 still meets them at the quiet corners. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Shadow Carp",
+    "realName": "Oda Shark",
+    "age": 16,
+    "birthYear": 2009,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep",
+      "echoLocator",
+      "stormCaller",
+      "tactics"
+    ],
+    "associates": [
+      "Rusty Mouse",
+      "Sneaky Carp",
+      "Turbo Chancellor 10"
+    ],
+    "enemies": [
+      "Bouncy Eagle",
+      "Fuzzy Composer",
+      "Keen Drone 28"
+    ],
+    "nemesis": "Sneaky Farmer",
+    "citizenship": "Ethiopia",
+    "backgroundStory": "Shadow Carp never aimed for fame; the world kept finding them. Practice made patterns; patterns made plans. On the night of the Broken Gate, the feud with Sneaky Farmer began in earnest. Rusty Mouse reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Silent Walrus",
+    "realName": "unknown",
+    "age": 21,
+    "birthYear": 2004,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "stoneSkin",
+      "stormCaller"
+    ],
+    "associates": [
+      "Grumpy Composer",
+      "Shadow Barista",
+      "Sneaky Oracle"
+    ],
+    "enemies": [],
+    "nemesis": "Grumpy Mouse",
+    "citizenship": "Belgium",
+    "backgroundStory": "Silent Walrus never aimed for fame; the world kept finding them. Old machines and older myths both answered when Silent Walrus called. It was the Echo Fault that made Silent Walrus and Grumpy Mouse permanent in each other's plans. If the city holds its breath, Sneaky Oracle counts the beats with them. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Solar Eagle",
+    "realName": "Li Otter",
+    "age": 9,
+    "birthYear": 2016,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "stormCaller",
+      "invisibility",
+      "cunning",
+      "sonicBoom"
+    ],
+    "associates": [
+      "Bouncy Lattice",
+      "Merry Raven"
+    ],
+    "enemies": [
+      "Sly Eagle",
+      "Bouncy Badger",
+      "Silent Blob"
+    ],
+    "nemesis": "Arcane Professor",
+    "citizenship": "Denmark",
+    "backgroundStory": "Every road bent a little when Solar Eagle passed by. People noticed the way tools behaved around them—especially under pressure. the Quiet Uprising drew a bright circle; Arcane Professor stood on the far side of it. When angles get tight, Merry Raven lends a steadier line. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Rapid Wolf",
+    "realName": "Emma Wolf",
+    "age": 23,
+    "birthYear": 2002,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "tactics"
+    ],
+    "associates": [
+      "Neon Chancellor 76",
+      "Turbo Warden",
+      "Sly Spindle"
+    ],
+    "enemies": [
+      "Shadow Overmind 39"
+    ],
+    "nemesis": "Crimson Pilot",
+    "citizenship": "Morocco",
+    "backgroundStory": "Rapid Wolf prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. It was the Glass Bridge that made Rapid Wolf and Crimson Pilot permanent in each other's plans. When angles get tight, Turbo Warden lends a steadier line. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Arcane Mole",
+    "realName": "Hilda Walrus",
+    "age": 15,
+    "birthYear": 2010,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep"
+    ],
+    "associates": [
+      "Arcane Mouse",
+      "Electric Detective",
+      "Quantum Lattice"
+    ],
+    "enemies": [
+      "Fuzzy Moose",
+      "Lofty Cat"
+    ],
+    "nemesis": null,
+    "citizenship": "Belgium",
+    "backgroundStory": "Every road bent a little when Arcane Mole passed by. Old machines and older myths both answered when Arcane Mole called. Since then, Electric Detective keeps pace, trading signals and patience. Tomorrow is a moving target; that’s fine. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Silent Viper",
+    "realName": "Aisha Cat",
+    "age": 6,
+    "birthYear": 2019,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "cunning",
+      "flight"
+    ],
+    "associates": [
+      "Turbo Teacher",
+      "Shadow Barista"
+    ],
+    "enemies": [
+      "Solar Overmind"
+    ],
+    "nemesis": null,
+    "citizenship": "Egypt",
+    "backgroundStory": "Silent Viper never aimed for fame; the world kept finding them. A knack for cunning became a habit; a habit became a legend. When angles get tight, Shadow Barista lends a steadier line. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Turbo Hawk",
+    "realName": "Mona Moose",
+    "age": 25,
+    "birthYear": 2000,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "flight",
+      "tactics",
+      "stoneSkin",
+      "superStrength"
+    ],
+    "associates": [
+      "Turbo Teacher",
+      "Shadow Barista"
+    ],
+    "enemies": [
+      "Lunar Nurse"
+    ],
+    "nemesis": null,
+    "citizenship": "Ethiopia",
+    "backgroundStory": "Raised far from the spotlight, Turbo Hawk learned odd tricks early. Old machines and older myths both answered when Turbo Hawk called. Maps change, but Turbo Teacher still meets them at the quiet corners. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Sly Eagle",
+    "realName": "Li Eagle",
+    "age": 38,
+    "birthYear": 1987,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "immortality",
+      "mindControl"
+    ],
+    "associates": [
+      "Arcane Courier",
+      "Lofty Mechanic",
+      "Turbo Teacher"
+    ],
+    "enemies": [],
+    "nemesis": "Turbo Chancellor 10",
+    "citizenship": "New Zealand",
+    "backgroundStory": "Sly Eagle never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. the Frozen Dawn was the first time they read Turbo Chancellor 10's rhythm. If the city holds its breath, Lofty Mechanic counts the beats with them. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Grumpy Viper",
+    "realName": "unknown",
+    "age": 30,
+    "birthYear": 1995,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "mindControl"
+    ],
+    "associates": [
+      "Sneaky Blob 61",
+      "Lunar Moose",
+      "Silent Blob"
+    ],
+    "enemies": [
+      "Solar Oracle",
+      "Grumpy Courier",
+      "Lofty Composer"
+    ],
+    "nemesis": "Velvet Postman",
+    "citizenship": "China",
+    "backgroundStory": "Grumpy Viper prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. the Quiet Uprising was the first time they read Velvet Postman's rhythm. When angles get tight, Sneaky Blob 61 lends a steadier line. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Hollow Goat",
+    "realName": "unknown",
+    "age": 3,
+    "birthYear": 2022,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "flight",
+      "tactics",
+      "telekinesis",
+      "stormCaller"
+    ],
+    "associates": [
+      "Bouncy Blob"
+    ],
+    "enemies": [
+      "Silent Oracle 14",
+      "Turbo Chancellor 10",
+      "Odd Bear"
+    ],
+    "nemesis": "Merry Carp",
+    "citizenship": "Belgium",
+    "backgroundStory": "Every road bent a little when Hollow Goat passed by. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Hivemind Murmur, when Merry Carp stepped across the line. If the city holds its breath, Bouncy Blob counts the beats with them. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Bouncy Eagle",
+    "realName": "Haggar Falcon",
+    "age": 25,
+    "birthYear": 2000,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "echoLocator",
+      "cunning"
+    ],
+    "associates": [
+      "Grumpy Unit 38",
+      "Hollow Harvester"
+    ],
+    "enemies": [
+      "Stormy Professor",
+      "Sneaky Baker"
+    ],
+    "nemesis": "Grumpy Courier",
+    "citizenship": "Norway",
+    "backgroundStory": "Bouncy Eagle never aimed for fame; the world kept finding them. Practice made patterns; patterns made plans. It was the Midnight Incident that made Bouncy Eagle and Grumpy Courier permanent in each other's plans. If the city holds its breath, Hollow Harvester counts the beats with them. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sneaky Penguin",
+    "realName": "unknown",
+    "age": 30,
+    "birthYear": 1995,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "pyrokinesis",
+      "shapeShift",
+      "aquaBreath"
+    ],
+    "associates": [
+      "Sneaky Oracle",
+      "Brave Node 9"
+    ],
+    "enemies": [],
+    "nemesis": "Solar Oracle",
+    "citizenship": "Turkey",
+    "backgroundStory": "Raised far from the spotlight, Sneaky Penguin learned odd tricks early. A knack for pyrokinesis became a habit; a habit became a legend. Everything changed during the Tractor Glow, when Solar Oracle stepped across the line. Maps change, but Sneaky Oracle still meets them at the quiet corners. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Sneaky Carp",
+    "realName": "Kari Badger",
+    "age": 17,
+    "birthYear": 2008,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "speed",
+      "immortality"
+    ],
+    "associates": [
+      "Merry Carp",
+      "Shadow Carp",
+      "Crimson Cat",
+      "Quantum Cat",
+      "Electric Detective"
+    ],
+    "enemies": [
+      "Odd Courier",
+      "Solar Eagle"
+    ],
+    "nemesis": "Lunar Moose",
+    "citizenship": "Japan",
+    "backgroundStory": "Sneaky Carp never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. the Echo Fault was the first time they read Lunar Moose's rhythm. Maps change, but Shadow Carp still meets them at the quiet corners. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Turbo Seal",
+    "realName": "Noah Dog",
+    "age": 27,
+    "birthYear": 1998,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "tactics"
+    ],
+    "associates": [],
+    "enemies": [
+      "Velvet Unit 7",
+      "Sneaky Penguin",
+      "Quantum Lattice"
+    ],
+    "nemesis": "Rapid Raven",
+    "citizenship": "Poland",
+    "backgroundStory": "Turbo Seal never aimed for fame; the world kept finding them. A knack for tactics became a habit; a habit became a legend. It was the Frozen Dawn that made Turbo Seal and Rapid Raven permanent in each other's plans. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Merry Raven",
+    "realName": "unknown",
+    "age": 25,
+    "birthYear": 2000,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "sonicBoom"
+    ],
+    "associates": [
+      "Lunar Nurse",
+      "Velvet Hedgehog",
+      "Fuzzy Sparrow",
+      "Velvet Courier",
+      "Quantum Seer 87"
+    ],
+    "enemies": [
+      "Rapid Unit",
+      "Lofty Mechanic",
+      "Lofty Farmer"
+    ],
+    "nemesis": "Merry Postman",
+    "citizenship": "Japan",
+    "backgroundStory": "Merry Raven never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. the Hivemind Murmur was the first time they read Merry Postman's rhythm. Since then, Velvet Courier keeps pace, trading signals and patience. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Arcane Mouse",
+    "realName": "Oda Eagle",
+    "age": 37,
+    "birthYear": 1988,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "sonicBoom",
+      "telekinesis",
+      "techWizard"
+    ],
+    "associates": [
+      "Quantum Oracle 5",
+      "Lofty Fox",
+      "Silver Fox",
+      "Rusty Mouse"
+    ],
+    "enemies": [],
+    "nemesis": "Sneaky Overmind",
+    "citizenship": "Iceland",
+    "backgroundStory": "Arcane Mouse prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. It was the Hivemind Murmur that made Arcane Mouse and Sneaky Overmind permanent in each other's plans. Lofty Fox reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Lunar Moose",
+    "realName": "Mona Moose",
+    "age": 4,
+    "birthYear": 2021,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "mindControl"
+    ],
+    "associates": [
+      "Grumpy Viper",
+      "Solar Artist"
+    ],
+    "enemies": [],
+    "nemesis": "Sneaky Carp",
+    "citizenship": "Vietnam",
+    "backgroundStory": "Rumor says Lunar Moose trained where maps fade and names blur. Old machines and older myths both answered when Lunar Moose called. On the night of the Echo Fault, the feud with Sneaky Carp began in earnest. Solar Artist reminds them that speed without sense is just noise. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Brave Mouse",
+    "realName": "Mina Wolf",
+    "age": 19,
+    "birthYear": 2006,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "shadowStep",
+      "aquaBreath",
+      "sonicBoom",
+      "stormCaller"
+    ],
+    "associates": [
+      "Bouncy Dog"
+    ],
+    "enemies": [
+      "Arcane Mouse"
+    ],
+    "nemesis": null,
+    "citizenship": "Peru",
+    "backgroundStory": "Raised far from the spotlight, Brave Mouse learned odd tricks early. They tuned their instincts until silence had seams to pull. If the city holds its breath, Bouncy Dog counts the beats with them. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Sly Shark",
+    "realName": "Li Cat",
+    "age": 17,
+    "birthYear": 2008,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "shadowStep",
+      "telekinesis",
+      "stormCaller"
+    ],
+    "associates": [
+      "Sneaky Oracle"
+    ],
+    "enemies": [
+      "Silver Smith",
+      "Stormy Oracle",
+      "Fuzzy Smith"
+    ],
+    "nemesis": "Quantum Seer 87",
+    "citizenship": "Bangladesh",
+    "backgroundStory": "Rumor says Sly Shark trained where maps fade and names blur. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Broken Gate, when Quantum Seer 87 stepped across the line. When angles get tight, Sneaky Oracle lends a steadier line. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Fuzzy Moose",
+    "realName": "Mona Carp",
+    "age": 21,
+    "birthYear": 2004,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "stoneSkin",
+      "shadowStep"
+    ],
+    "associates": [
+      "Odd Farmer"
+    ],
+    "enemies": [
+      "Solar Overmind",
+      "Silent Blob"
+    ],
+    "nemesis": "Arcane Courier",
+    "citizenship": "India",
+    "backgroundStory": "Fuzzy Moose prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. Everything changed during the Library Fire, when Arcane Courier stepped across the line. Since then, Odd Farmer keeps pace, trading signals and patience. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Bouncy Badger",
+    "realName": "Rita Raven",
+    "age": 34,
+    "birthYear": 1991,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "aquaBreath",
+      "timeWarp"
+    ],
+    "associates": [
+      "Electric Artist",
+      "Odd Otter",
+      "Merry Drone",
+      "Turbo Teacher",
+      "Silent Blob"
+    ],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Portugal",
+    "backgroundStory": "Bouncy Badger never aimed for fame; the world kept finding them. A knack for aquaBreath became a habit; a habit became a legend. Since then, Turbo Teacher keeps pace, trading signals and patience. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Silver Lynx",
+    "realName": "Mona Viper",
+    "age": 21,
+    "birthYear": 2004,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "timeWarp",
+      "shapeShift",
+      "techWizard",
+      "superStrength"
+    ],
+    "associates": [],
+    "enemies": [
+      "Odd Gardener"
+    ],
+    "nemesis": null,
+    "citizenship": "Spain",
+    "backgroundStory": "Rumor says Silver Lynx trained where maps fade and names blur. Practice made patterns; patterns made plans. No banners. No speeches. Just the work. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Crimson Cat",
+    "realName": "Anna Mouse",
+    "age": 11,
+    "birthYear": 2014,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "techWizard",
+      "invisibility"
+    ],
+    "associates": [
+      "Sneaky Carp",
+      "Rapid Blob"
+    ],
+    "enemies": [
+      "Lofty Composer",
+      "Golden Carp",
+      "Odd Gardener"
+    ],
+    "nemesis": "Rapid Unit",
+    "citizenship": "Morocco",
+    "backgroundStory": "Every road bent a little when Crimson Cat passed by. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Rusted Siren, when Rapid Unit stepped across the line. Maps change, but Rapid Blob still meets them at the quiet corners. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Rapid Seal",
+    "realName": "Mina Eagle",
+    "age": 20,
+    "birthYear": 2005,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "shapeShift",
+      "sonicBoom"
+    ],
+    "associates": [
+      "Arcane Oracle",
+      "Electric Artist"
+    ],
+    "enemies": [
+      "Lofty Fox",
+      "Fuzzy Smith",
+      "Shadow Overmind 39"
+    ],
+    "nemesis": "Bouncy Janitor",
+    "citizenship": "Ghana",
+    "backgroundStory": "Rapid Seal never aimed for fame; the world kept finding them. Old machines and older myths both answered when Rapid Seal called. Everything changed during the Glass Bridge, when Bouncy Janitor stepped across the line. Arcane Oracle reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Lofty Fox",
+    "realName": "Felicia Falcon",
+    "age": 31,
+    "birthYear": 1994,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep",
+      "sonicBoom"
+    ],
+    "associates": [
+      "Rapid Blob",
+      "Arcane Lattice 45"
+    ],
+    "enemies": [
+      "Golden Sparrow"
+    ],
+    "nemesis": "Turbo Warden",
+    "citizenship": "Ceres",
+    "backgroundStory": "Lofty Fox prefers the edges of things—alleys, archives, antenna arrays. A knack for shadowStep became a habit; a habit became a legend. the Hivemind Murmur drew a bright circle; Turbo Warden stood on the far side of it. Since then, Arcane Lattice 45 keeps pace, trading signals and patience. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Silver Fox",
+    "realName": "Ingrid Seal",
+    "age": 31,
+    "birthYear": 1994,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "techWizard",
+      "pyrokinesis",
+      "telekinesis",
+      "speed"
+    ],
+    "associates": [
+      "Crimson Pilot",
+      "Silent Hawk",
+      "Arcane Mouse",
+      "Lofty Farmer",
+      "Rapid Blob",
+      "Brave Lattice"
+    ],
+    "enemies": [],
+    "nemesis": "Sneaky Barista",
+    "citizenship": "Australia",
+    "backgroundStory": "Silver Fox prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. the Broken Gate drew a bright circle; Sneaky Barista stood on the far side of it. Since then, Arcane Mouse keeps pace, trading signals and patience. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Shadow Walrus",
+    "realName": "Sofia Dog",
+    "age": 16,
+    "birthYear": 2009,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "shadowStep",
+      "superStrength"
+    ],
+    "associates": [
+      "Bouncy Blob",
+      "Lofty Composer",
+      "Neon Chancellor 76"
+    ],
+    "enemies": [
+      "Merry Artist",
+      "Lofty Ranger"
+    ],
+    "nemesis": "Grumpy Composer",
+    "citizenship": "Spain",
+    "backgroundStory": "Every road bent a little when Shadow Walrus passed by. A knack for shadowStep became a habit; a habit became a legend. the Library Fire was the first time they read Grumpy Composer's rhythm. When angles get tight, Lofty Composer lends a steadier line. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Odd Otter",
+    "realName": "Sofia Sparrow",
+    "age": 13,
+    "birthYear": 2012,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "mindControl",
+      "healing",
+      "echoLocator"
+    ],
+    "associates": [],
+    "enemies": [
+      "Solar Overmind",
+      "Bouncy Lattice"
+    ],
+    "nemesis": "Shadow Overmind 39",
+    "citizenship": "Portugal",
+    "backgroundStory": "Rumor says Odd Otter trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. On the night of the Glass Bridge, the feud with Shadow Overmind 39 began in earnest. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Rusty Mouse",
+    "realName": "not applicable",
+    "age": 9,
+    "birthYear": 2016,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "superStrength",
+      "shapeShift",
+      "cunning",
+      "timeWarp"
+    ],
+    "associates": [
+      "Arcane Mouse",
+      "Silent Hawk",
+      "Quantum Cat"
+    ],
+    "enemies": [
+      "Rapid Wolf",
+      "Grumpy Composer"
+    ],
+    "nemesis": null,
+    "citizenship": "South Korea",
+    "backgroundStory": "Rumor says Rusty Mouse trained where maps fade and names blur. Old machines and older myths both answered when Rusty Mouse called. If the city holds its breath, Quantum Cat counts the beats with them. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Lofty Cat",
+    "realName": "Pål Walrus",
+    "age": 34,
+    "birthYear": 1991,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "superStrength",
+      "speed"
+    ],
+    "associates": [
+      "Shadow Barista",
+      "Brave Node 9",
+      "Hollow Spindle 65",
+      "Arcane Oracle"
+    ],
+    "enemies": [
+      "Silent Warmind"
+    ],
+    "nemesis": "Electric Detective",
+    "citizenship": "Chile",
+    "backgroundStory": "Lofty Cat never aimed for fame; the world kept finding them. Old machines and older myths both answered when Lofty Cat called. the Rusted Siren was the first time they read Electric Detective's rhythm. Shadow Barista reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Velvet Hedgehog",
+    "realName": "Haggar Moose",
+    "age": 27,
+    "birthYear": 1998,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "stormCaller",
+      "shadowStep"
+    ],
+    "associates": [],
+    "enemies": [
+      "Hollow Detective"
+    ],
+    "nemesis": "Turbo Teacher",
+    "citizenship": "Sweden",
+    "backgroundStory": "Rumor says Velvet Hedgehog trained where maps fade and names blur. Old machines and older myths both answered when Velvet Hedgehog called. It was the Echo Fault that made Velvet Hedgehog and Turbo Teacher permanent in each other's plans. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Brave Bear",
+    "realName": "Diego Goat",
+    "age": 24,
+    "birthYear": 2001,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "sonicBoom",
+      "telekinesis",
+      "tactics",
+      "speed"
+    ],
+    "associates": [
+      "Fuzzy Smith",
+      "Velvet Courier"
+    ],
+    "enemies": [
+      "Silent Warmind"
+    ],
+    "nemesis": null,
+    "citizenship": "Peru",
+    "backgroundStory": "Brave Bear never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. If the city holds its breath, Velvet Courier counts the beats with them. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Fuzzy Sparrow",
+    "realName": "Anna Cat",
+    "age": 31,
+    "birthYear": 1994,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "stormCaller",
+      "cunning",
+      "flight"
+    ],
+    "associates": [
+      "Merry Raven",
+      "Bouncy Dog"
+    ],
+    "enemies": [
+      "Rapid Seal"
+    ],
+    "nemesis": "Keen Drone 28",
+    "citizenship": "Switzerland",
+    "backgroundStory": "Raised far from the spotlight, Fuzzy Sparrow learned odd tricks early. A knack for stormCaller became a habit; a habit became a legend. On the night of the Titan Rains, the feud with Keen Drone 28 began in earnest. Merry Raven reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Golden Penguin",
+    "realName": "Siv Viper",
+    "age": 26,
+    "birthYear": 1999,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "cunning",
+      "mindControl",
+      "teleportation",
+      "healing"
+    ],
+    "associates": [
+      "Sly Farmer",
+      "Sneaky Blob 61",
+      "Arcane Oracle"
+    ],
+    "enemies": [],
+    "nemesis": "Odd Farmer",
+    "citizenship": "Chile",
+    "backgroundStory": "Golden Penguin prefers the edges of things—alleys, archives, antenna arrays. Old machines and older myths both answered when Golden Penguin called. On the night of the Glass Bridge, the feud with Odd Farmer began in earnest. When angles get tight, Sneaky Blob 61 lends a steadier line. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Grumpy Mouse",
+    "realName": "Jan Otter",
+    "age": 28,
+    "birthYear": 1997,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep",
+      "magnetism",
+      "timeWarp",
+      "teleportation"
+    ],
+    "associates": [
+      "Odd Lynx",
+      "Arcane Mole"
+    ],
+    "enemies": [],
+    "nemesis": "Silent Walrus",
+    "citizenship": "Australia",
+    "backgroundStory": "Grumpy Mouse prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. On the night of the Echo Fault, the feud with Silent Walrus began in earnest. When angles get tight, Odd Lynx lends a steadier line. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Odd Lynx",
+    "realName": "Li Shark",
+    "age": 15,
+    "birthYear": 2010,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "flight",
+      "cunning",
+      "shapeShift"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": "Sneaky Oracle",
+    "citizenship": "Iceland",
+    "backgroundStory": "Every road bent a little when Odd Lynx passed by. A knack for flight became a habit; a habit became a legend. It was the Latch Puzzle that made Odd Lynx and Sneaky Oracle permanent in each other's plans. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Velvet Walrus",
+    "realName": "Aisha Falcon",
+    "age": 30,
+    "birthYear": 1995,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "timeWarp",
+      "cunning"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": "Brave Professor",
+    "citizenship": "Kenya",
+    "backgroundStory": "Velvet Walrus prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. On the night of the Echo Fault, the feud with Brave Professor began in earnest. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Arcane Eagle",
+    "realName": "Anna Whale",
+    "age": 36,
+    "birthYear": 1989,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "stoneSkin",
+      "flight",
+      "tactics"
+    ],
+    "associates": [
+      "Arcane Ranger"
+    ],
+    "enemies": [
+      "Odd Lynx",
+      "Silver Blob 39"
+    ],
+    "nemesis": "Quantum Lattice",
+    "citizenship": "Thailand",
+    "backgroundStory": "Arcane Eagle never aimed for fame; the world kept finding them. Practice made patterns; patterns made plans. the Broken Gate was the first time they read Quantum Lattice's rhythm. Maps change, but Arcane Ranger still meets them at the quiet corners. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Bouncy Dog",
+    "realName": "unknown",
+    "age": 39,
+    "birthYear": 1986,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "telekinesis",
+      "mindControl",
+      "timeWarp"
+    ],
+    "associates": [
+      "Silver Blob 39",
+      "Brave Mouse",
+      "Odd Courier",
+      "Quantum Seer 87"
+    ],
+    "enemies": [
+      "Golden Sparrow",
+      "Lofty Ranger",
+      "Arcane Mole"
+    ],
+    "nemesis": null,
+    "citizenship": "Norway",
+    "backgroundStory": "Rumor says Bouncy Dog trained where maps fade and names blur. Practice made patterns; patterns made plans. If the city holds its breath, Silver Blob 39 counts the beats with them. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Merry Carp",
+    "realName": "Ahmed Fox",
+    "age": 18,
+    "birthYear": 2007,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "teleportation",
+      "stoneSkin",
+      "shapeShift"
+    ],
+    "associates": [
+      "Crimson Pilot",
+      "Bouncy Janitor",
+      "Shadow Overmind 39",
+      "Brave Lattice"
+    ],
+    "enemies": [],
+    "nemesis": "Hollow Goat",
+    "citizenship": "Norway",
+    "backgroundStory": "Rumor says Merry Carp trained where maps fade and names blur. Practice made patterns; patterns made plans. Everything changed during the Hivemind Murmur, when Hollow Goat stepped across the line. Since then, Bouncy Janitor keeps pace, trading signals and patience. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Golden Carp",
+    "realName": "Stein Raven",
+    "age": 25,
+    "birthYear": 2000,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "cunning"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Austria",
+    "backgroundStory": "Raised far from the spotlight, Golden Carp learned odd tricks early. Practice made patterns; patterns made plans. Plans fail; patterns don’t. That is enough. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Quantum Cat",
+    "realName": "Ingrid Viper",
+    "age": 20,
+    "birthYear": 2005,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "stoneSkin",
+      "pyrokinesis",
+      "telekinesis",
+      "tactics"
+    ],
+    "associates": [
+      "Rusty Mouse",
+      "Fuzzy Plumber",
+      "Sneaky Carp",
+      "Lofty Farmer",
+      "Golden Nurse"
+    ],
+    "enemies": [
+      "Solar Warden 40",
+      "Odd Farmer",
+      "Turbo Lattice 5"
+    ],
+    "nemesis": "Lofty Composer",
+    "citizenship": "Kenya",
+    "backgroundStory": "Every road bent a little when Quantum Cat passed by. They tuned their instincts until silence had seams to pull. On the night of the Quiet Uprising, the feud with Lofty Composer began in earnest. Maps change, but Sneaky Carp still meets them at the quiet corners. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Brave Mole",
+    "realName": "unknown",
+    "age": 23,
+    "birthYear": 2002,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "techWizard",
+      "flight",
+      "shadowStep",
+      "speed"
+    ],
+    "associates": [
+      "Silent Hawk",
+      "Stormy Oracle"
+    ],
+    "enemies": [
+      "Odd Otter",
+      "Fuzzy Moose"
+    ],
+    "nemesis": "Hollow Raven",
+    "citizenship": "Argentina",
+    "backgroundStory": "Brave Mole prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Quiet Uprising, when Hollow Raven stepped across the line. Silent Hawk reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sneaky Farmer",
+    "realName": "unknown",
+    "age": 83,
+    "birthYear": 1942,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "mindControl",
+      "flight"
+    ],
+    "associates": [],
+    "enemies": [
+      "Stormy Professor"
+    ],
+    "nemesis": "Shadow Carp",
+    "citizenship": "Czechia",
+    "backgroundStory": "Every road bent a little when Sneaky Farmer passed by. A knack for mindControl became a habit; a habit became a legend. the Broken Gate was the first time they read Shadow Carp's rhythm. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Solar Poet",
+    "realName": "Noah Lund",
+    "age": 16,
+    "birthYear": 2009,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "sonicBoom",
+      "pyrokinesis"
+    ],
+    "associates": [
+      "Turbo Scribe",
+      "Crimson Pilot",
+      "Sneaky Baker"
+    ],
+    "enemies": [
+      "Grumpy Composer"
+    ],
+    "nemesis": null,
+    "citizenship": "Germany",
+    "backgroundStory": "Every road bent a little when Solar Poet passed by. A knack for sonicBoom became a habit; a habit became a legend. Maps change, but Turbo Scribe still meets them at the quiet corners. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Arcane Courier",
+    "realName": "Hilda Sørensen",
+    "age": 51,
+    "birthYear": 1974,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "echoLocator",
+      "mindControl",
+      "immortality"
+    ],
+    "associates": [
+      "Sly Eagle",
+      "Brave Node 9",
+      "Merry Postman",
+      "Sneaky Blob 61"
+    ],
+    "enemies": [],
+    "nemesis": "Fuzzy Moose",
+    "citizenship": "South Korea",
+    "backgroundStory": "Rumor says Arcane Courier trained where maps fade and names blur. A knack for echoLocator became a habit; a habit became a legend. the Library Fire was the first time they read Fuzzy Moose's rhythm. Maps change, but Sneaky Blob 61 still meets them at the quiet corners. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Fuzzy Plumber",
+    "realName": "Nils Dahl",
+    "age": 43,
+    "birthYear": 1982,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "immortality"
+    ],
+    "associates": [
+      "Electric Detective"
+    ],
+    "enemies": [
+      "Hollow Harvester",
+      "Neon Chancellor 76",
+      "Sly Spindle"
+    ],
+    "nemesis": null,
+    "citizenship": "Kenya",
+    "backgroundStory": "Fuzzy Plumber never aimed for fame; the world kept finding them. Practice made patterns; patterns made plans. Maps change, but Electric Detective still meets them at the quiet corners. They carry the night like a toolkit and walk on. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Odd Farmer",
+    "realName": "Siv Singh",
+    "age": 74,
+    "birthYear": 1951,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "invisibility",
+      "speed"
+    ],
+    "associates": [
+      "Neon Chancellor 76",
+      "Fuzzy Moose",
+      "Stormy Node"
+    ],
+    "enemies": [
+      "Electric Detective",
+      "Shadow Warmind"
+    ],
+    "nemesis": "Golden Penguin",
+    "citizenship": "USA",
+    "backgroundStory": "Odd Farmer prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. the Glass Bridge drew a bright circle; Golden Penguin stood on the far side of it. If the city holds its breath, Stormy Node counts the beats with them. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Turbo Scribe",
+    "realName": "Mina Johansen",
+    "age": 96,
+    "birthYear": 1929,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "stoneSkin",
+      "shapeShift"
+    ],
+    "associates": [
+      "Odd Unit 66",
+      "Lofty Ranger"
+    ],
+    "enemies": [
+      "Rapid Seal",
+      "Arcane Eagle"
+    ],
+    "nemesis": "Shadow Barista",
+    "citizenship": "South Africa",
+    "backgroundStory": "Turbo Scribe prefers the edges of things—alleys, archives, antenna arrays. A knack for stoneSkin became a habit; a habit became a legend. On the night of the Hivemind Murmur, the feud with Shadow Barista began in earnest. Since then, Lofty Ranger keeps pace, trading signals and patience. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Merry Artist",
+    "realName": "Siv Iversen",
+    "age": 13,
+    "birthYear": 2012,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "techWizard"
+    ],
+    "associates": [
+      "Arcane Courier",
+      "Keen Drone 28"
+    ],
+    "enemies": [
+      "Quantum Pilot",
+      "Fuzzy Moose",
+      "Lunar Nurse"
+    ],
+    "nemesis": "Silent Warmind",
+    "citizenship": "Norway",
+    "backgroundStory": "Merry Artist prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. the Hivemind Murmur was the first time they read Silent Warmind's rhythm. When angles get tight, Arcane Courier lends a steadier line. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sly Farmer",
+    "realName": "Nils Strand",
+    "age": 37,
+    "birthYear": 1988,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "flight",
+      "stoneSkin",
+      "superStrength",
+      "cunning"
+    ],
+    "associates": [
+      "Sneaky Barista",
+      "Golden Unit 73",
+      "Shadow Poet"
+    ],
+    "enemies": [
+      "Odd Unit 66",
+      "Turbo Warden"
+    ],
+    "nemesis": "Odd Oracle",
+    "citizenship": "Spain",
+    "backgroundStory": "Every road bent a little when Sly Farmer passed by. A knack for flight became a habit; a habit became a legend. Everything changed during the Red Market, when Odd Oracle stepped across the line. Since then, Shadow Poet keeps pace, trading signals and patience. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Shadow Chef",
+    "realName": "Oda Dahl",
+    "age": 38,
+    "birthYear": 1987,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "healing",
+      "echoLocator",
+      "speed"
+    ],
+    "associates": [
+      "Brave Bear",
+      "Odd Gardener"
+    ],
+    "enemies": [],
+    "nemesis": "Arcane Ranger",
+    "citizenship": "Iceland",
+    "backgroundStory": "Shadow Chef never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. the Glass Bridge was the first time they read Arcane Ranger's rhythm. Odd Gardener reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Shadow Pilot",
+    "realName": "unknown",
+    "age": 64,
+    "birthYear": 1961,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "sonicBoom",
+      "stoneSkin"
+    ],
+    "associates": [],
+    "enemies": [
+      "Golden Penguin",
+      "Arcane Ranger"
+    ],
+    "nemesis": "Silver Blob 39",
+    "citizenship": "France",
+    "backgroundStory": "Shadow Pilot prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. the Rusted Siren drew a bright circle; Silver Blob 39 stood on the far side of it. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Electric Detective",
+    "realName": "Sofia Iversen",
+    "age": 94,
+    "birthYear": 1931,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "stormCaller",
+      "techWizard",
+      "healing"
+    ],
+    "associates": [
+      "Sneaky Carp",
+      "Fuzzy Plumber",
+      "Crimson Pilot"
+    ],
+    "enemies": [
+      "Rapid Unit",
+      "Sneaky Farmer"
+    ],
+    "nemesis": "Lofty Cat",
+    "citizenship": "Tunisia",
+    "backgroundStory": "Rumor says Electric Detective trained where maps fade and names blur. A knack for stormCaller became a habit; a habit became a legend. the Rusted Siren was the first time they read Lofty Cat's rhythm. Fuzzy Plumber reminds them that speed without sense is just noise. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Stormy Composer",
+    "realName": "Jan Fox",
+    "age": 37,
+    "birthYear": 1988,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "mindControl"
+    ],
+    "associates": [],
+    "enemies": [
+      "Turbo Scribe",
+      "Stormy Professor",
+      "Shadow Poet"
+    ],
+    "nemesis": "Arcane Scribe",
+    "citizenship": "France",
+    "backgroundStory": "Stormy Composer never aimed for fame; the world kept finding them. Old machines and older myths both answered when Stormy Composer called. the Quiet Uprising was the first time they read Arcane Scribe's rhythm. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sneaky Barista",
+    "realName": "Diego Berg",
+    "age": 28,
+    "birthYear": 1997,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "stormCaller",
+      "invisibility",
+      "shapeShift"
+    ],
+    "associates": [
+      "Merry Postman"
+    ],
+    "enemies": [
+      "Shadow Harvester",
+      "Quantum Lattice",
+      "Shadow Chef"
+    ],
+    "nemesis": "Silver Fox",
+    "citizenship": "Netherlands",
+    "backgroundStory": "Sneaky Barista prefers the edges of things—alleys, archives, antenna arrays. A knack for stormCaller became a habit; a habit became a legend. Everything changed during the Broken Gate, when Silver Fox stepped across the line. When angles get tight, Merry Postman lends a steadier line. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Grumpy Composer",
+    "realName": "unknown",
+    "age": 26,
+    "birthYear": 1999,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "immortality",
+      "teleportation",
+      "speed",
+      "pyrokinesis"
+    ],
+    "associates": [
+      "Silent Walrus",
+      "Velvet Unit 7"
+    ],
+    "enemies": [
+      "Quantum Oracle 5"
+    ],
+    "nemesis": "Shadow Walrus",
+    "citizenship": "Pakistan",
+    "backgroundStory": "Grumpy Composer prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. It was the Library Fire that made Grumpy Composer and Shadow Walrus permanent in each other's plans. When angles get tight, Silent Walrus lends a steadier line. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Sneaky Baker",
+    "realName": "Jan Lund",
+    "age": 37,
+    "birthYear": 1988,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "timeWarp",
+      "superStrength",
+      "invisibility"
+    ],
+    "associates": [
+      "Solar Poet",
+      "Bouncy Janitor",
+      "Arcane Lattice 45"
+    ],
+    "enemies": [
+      "Turbo Hawk",
+      "Sly Spindle",
+      "Keen Drone 28"
+    ],
+    "nemesis": "Shadow Poet",
+    "citizenship": "South Africa",
+    "backgroundStory": "Sneaky Baker never aimed for fame; the world kept finding them. Old machines and older myths both answered when Sneaky Baker called. On the night of the Midnight Incident, the feud with Shadow Poet began in earnest. When angles get tight, Solar Poet lends a steadier line. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Hollow Detective",
+    "realName": "Ahmed Garcia",
+    "age": 54,
+    "birthYear": 1971,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "immortality",
+      "techWizard"
+    ],
+    "associates": [
+      "Brave Professor",
+      "Silent Hawk",
+      "Bouncy Janitor"
+    ],
+    "enemies": [
+      "Sly Eagle",
+      "Arcane Courier"
+    ],
+    "nemesis": "Grumpy Construct",
+    "citizenship": "Io",
+    "backgroundStory": "Hollow Detective prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. On the night of the Latch Puzzle, the feud with Grumpy Construct began in earnest. If the city holds its breath, Brave Professor counts the beats with them. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Silver Smith",
+    "realName": "Mina Sørensen",
+    "age": 74,
+    "birthYear": 1951,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep",
+      "echoLocator",
+      "stormCaller",
+      "sonicBoom"
+    ],
+    "associates": [],
+    "enemies": [
+      "Sly Spindle"
+    ],
+    "nemesis": "Shadow Warmind",
+    "citizenship": "Morocco",
+    "backgroundStory": "Silver Smith prefers the edges of things—alleys, archives, antenna arrays. A knack for shadowStep became a habit; a habit became a legend. It was the Harbor Blackout that made Silver Smith and Shadow Warmind permanent in each other's plans. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Fuzzy Chef",
+    "realName": "Ingrid Nordvik",
+    "age": 37,
+    "birthYear": 1988,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "stoneSkin",
+      "speed",
+      "shadowStep",
+      "invisibility"
+    ],
+    "associates": [],
+    "enemies": [
+      "Bouncy Janitor",
+      "Sneaky Carp"
+    ],
+    "nemesis": "Stormy Artist",
+    "citizenship": "USA",
+    "backgroundStory": "Rumor says Fuzzy Chef trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. the Library Fire drew a bright circle; Stormy Artist stood on the far side of it. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Stormy Artist",
+    "realName": "Nils Singh",
+    "age": 40,
+    "birthYear": 1985,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "sonicBoom",
+      "cunning",
+      "telekinesis",
+      "mindControl"
+    ],
+    "associates": [
+      "Cosmic Librarian"
+    ],
+    "enemies": [
+      "Golden Nurse",
+      "Quantum Cat",
+      "Fuzzy Smith"
+    ],
+    "nemesis": "Fuzzy Chef",
+    "citizenship": "Chile",
+    "backgroundStory": "Stormy Artist prefers the edges of things—alleys, archives, antenna arrays. Old machines and older myths both answered when Stormy Artist called. Everything changed during the Library Fire, when Fuzzy Chef stepped across the line. When angles get tight, Cosmic Librarian lends a steadier line. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Lofty Composer",
+    "realName": "Marco Kim",
+    "age": 12,
+    "birthYear": 2013,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "cunning"
+    ],
+    "associates": [
+      "Hollow Raven",
+      "Shadow Walrus",
+      "Lunar Nurse",
+      "Turbo Lattice 5",
+      "Grumpy Unit 38"
+    ],
+    "enemies": [
+      "Rapid Raven",
+      "Stormy Artist"
+    ],
+    "nemesis": "Quantum Cat",
+    "citizenship": "Argentina",
+    "backgroundStory": "Lofty Composer never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. the Quiet Uprising drew a bright circle; Quantum Cat stood on the far side of it. If the city holds its breath, Lunar Nurse counts the beats with them. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Arcane Professor",
+    "realName": "unknown",
+    "age": 70,
+    "birthYear": 1955,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "pyrokinesis",
+      "superStrength",
+      "shapeShift"
+    ],
+    "associates": [
+      "Velvet Sentinel",
+      "Sneaky Oracle"
+    ],
+    "enemies": [
+      "Fuzzy Moose"
+    ],
+    "nemesis": "Solar Eagle",
+    "citizenship": "Denmark",
+    "backgroundStory": "Arcane Professor prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. Everything changed during the Quiet Uprising, when Solar Eagle stepped across the line. Maps change, but Sneaky Oracle still meets them at the quiet corners. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Brave Postman",
+    "realName": "Haggar Solberg",
+    "age": 39,
+    "birthYear": 1986,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "flight",
+      "cunning",
+      "echoLocator",
+      "sonicBoom"
+    ],
+    "associates": [
+      "Quantum Oracle 5",
+      "Grumpy Courier"
+    ],
+    "enemies": [
+      "Lofty Mechanic",
+      "Hollow Goat",
+      "Fuzzy Sparrow"
+    ],
+    "nemesis": "Neon Chancellor 76",
+    "citizenship": "Ireland",
+    "backgroundStory": "Rumor says Brave Postman trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. the Rusted Siren was the first time they read Neon Chancellor 76's rhythm. When angles get tight, Quantum Oracle 5 lends a steadier line. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Shadow Barista",
+    "realName": "Ahmed Holm",
+    "age": 64,
+    "birthYear": 1961,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "invisibility",
+      "echoLocator",
+      "stoneSkin",
+      "healing"
+    ],
+    "associates": [
+      "Silent Viper",
+      "Silent Walrus"
+    ],
+    "enemies": [
+      "Turbo Lattice 5",
+      "Velvet Hedgehog"
+    ],
+    "nemesis": "Turbo Scribe",
+    "citizenship": "Norway",
+    "backgroundStory": "Raised far from the spotlight, Shadow Barista learned odd tricks early. People noticed the way tools behaved around them—especially under pressure. the Hivemind Murmur was the first time they read Turbo Scribe's rhythm. Silent Viper reminds them that speed without sense is just noise. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Lunar Scribe",
+    "realName": "Lars Sørensen",
+    "age": 93,
+    "birthYear": 1932,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "flight",
+      "tactics",
+      "stormCaller"
+    ],
+    "associates": [
+      "Bouncy Blob",
+      "Hollow Raven",
+      "Sly Spindle"
+    ],
+    "enemies": [
+      "Sly Seal"
+    ],
+    "nemesis": "Odd Unit 66",
+    "citizenship": "Finland",
+    "backgroundStory": "Lunar Scribe prefers the edges of things—alleys, archives, antenna arrays. A knack for flight became a habit; a habit became a legend. On the night of the Glass Bridge, the feud with Odd Unit 66 began in earnest. Since then, Bouncy Blob keeps pace, trading signals and patience. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Grumpy Courier",
+    "realName": "Li Johansen",
+    "age": 97,
+    "birthYear": 1928,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "echoLocator",
+      "aquaBreath"
+    ],
+    "associates": [
+      "Brave Lattice",
+      "Velvet Postman",
+      "Bouncy Janitor"
+    ],
+    "enemies": [],
+    "nemesis": "Bouncy Eagle",
+    "citizenship": "Nyx-12",
+    "backgroundStory": "Raised far from the spotlight, Grumpy Courier learned odd tricks early. Old machines and older myths both answered when Grumpy Courier called. On the night of the Midnight Incident, the feud with Bouncy Eagle began in earnest. Maps change, but Brave Lattice still meets them at the quiet corners. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Arcane Ranger",
+    "realName": "Ahmed Hansen",
+    "age": 79,
+    "birthYear": 1946,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "timeWarp",
+      "flight",
+      "invisibility"
+    ],
+    "associates": [
+      "Lofty Mechanic"
+    ],
+    "enemies": [],
+    "nemesis": "Shadow Chef",
+    "citizenship": "Spain",
+    "backgroundStory": "Raised far from the spotlight, Arcane Ranger learned odd tricks early. Old machines and older myths both answered when Arcane Ranger called. the Glass Bridge drew a bright circle; Shadow Chef stood on the far side of it. Lofty Mechanic reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Velvet Postman",
+    "realName": "Ola Nordvik",
+    "age": 40,
+    "birthYear": 1985,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "healing"
+    ],
+    "associates": [
+      "Lofty Ranger",
+      "Brave Lattice",
+      "Grumpy Courier"
+    ],
+    "enemies": [],
+    "nemesis": "Grumpy Viper",
+    "citizenship": "Bangladesh",
+    "backgroundStory": "Velvet Postman prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. It was the Quiet Uprising that made Velvet Postman and Grumpy Viper permanent in each other's plans. If the city holds its breath, Lofty Ranger counts the beats with them. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Lofty Mechanic",
+    "realName": "unknown",
+    "age": 71,
+    "birthYear": 1954,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "stormCaller",
+      "aquaBreath",
+      "sonicBoom"
+    ],
+    "associates": [
+      "Solar Artist",
+      "Cosmic Librarian",
+      "Shadow Poet"
+    ],
+    "enemies": [
+      "Solar Overmind",
+      "Brave Lattice",
+      "Solar Emissary"
+    ],
+    "nemesis": "Arcane Blob",
+    "citizenship": "South Korea",
+    "backgroundStory": "Rumor says Lofty Mechanic trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. Everything changed during the Quiet Uprising, when Arcane Blob stepped across the line. Shadow Poet reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Lofty Farmer",
+    "realName": "Haggar Lund",
+    "age": 57,
+    "birthYear": 1968,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "superStrength"
+    ],
+    "associates": [
+      "Arcane Blob",
+      "Quantum Cat",
+      "Silver Fox"
+    ],
+    "enemies": [],
+    "nemesis": "Golden Warden 43",
+    "citizenship": "Thailand",
+    "backgroundStory": "Raised far from the spotlight, Lofty Farmer learned odd tricks early. Old machines and older myths both answered when Lofty Farmer called. the Midnight Incident was the first time they read Golden Warden 43's rhythm. Since then, Arcane Blob keeps pace, trading signals and patience. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Crimson Pilot",
+    "realName": "Noah Haugen",
+    "age": 21,
+    "birthYear": 2004,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "shadowStep",
+      "tactics"
+    ],
+    "associates": [
+      "Shadow Harvester",
+      "Brave Professor"
+    ],
+    "enemies": [
+      "Shadow Barista",
+      "Silent Oracle 14",
+      "Fuzzy Sparrow"
+    ],
+    "nemesis": "Rapid Wolf",
+    "citizenship": "Thailand",
+    "backgroundStory": "Crimson Pilot never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. It was the Glass Bridge that made Crimson Pilot and Rapid Wolf permanent in each other's plans. Since then, Brave Professor keeps pace, trading signals and patience. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Bouncy Janitor",
+    "realName": "Rita Lund",
+    "age": 70,
+    "birthYear": 1955,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "pyrokinesis",
+      "speed",
+      "techWizard"
+    ],
+    "associates": [
+      "Sneaky Baker",
+      "Grumpy Courier",
+      "Hollow Detective"
+    ],
+    "enemies": [],
+    "nemesis": "Rapid Seal",
+    "citizenship": "Ethiopia",
+    "backgroundStory": "Bouncy Janitor never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. the Glass Bridge was the first time they read Rapid Seal's rhythm. If the city holds its breath, Grumpy Courier counts the beats with them. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Quantum Pilot",
+    "realName": "Emma Singh",
+    "age": 74,
+    "birthYear": 1951,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "aquaBreath",
+      "flight",
+      "stormCaller"
+    ],
+    "associates": [
+      "Golden Nurse"
+    ],
+    "enemies": [
+      "Rapid Unit",
+      "Odd Gardener"
+    ],
+    "nemesis": "Electric Artist",
+    "citizenship": "Argentina",
+    "backgroundStory": "Every road bent a little when Quantum Pilot passed by. Practice made patterns; patterns made plans. the Broken Gate drew a bright circle; Electric Artist stood on the far side of it. Since then, Golden Nurse keeps pace, trading signals and patience. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Sneaky Nurse",
+    "realName": "Felicia Kim",
+    "age": 39,
+    "birthYear": 1986,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "superStrength",
+      "tactics"
+    ],
+    "associates": [
+      "Fuzzy Composer"
+    ],
+    "enemies": [
+      "Silent Warmind"
+    ],
+    "nemesis": null,
+    "citizenship": "France",
+    "backgroundStory": "Raised far from the spotlight, Sneaky Nurse learned odd tricks early. Practice made patterns; patterns made plans. Maps change, but Fuzzy Composer still meets them at the quiet corners. Tomorrow is a moving target; that’s fine. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Fuzzy Composer",
+    "realName": "Marco Ngo",
+    "age": 64,
+    "birthYear": 1961,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "cunning",
+      "pyrokinesis",
+      "stoneSkin"
+    ],
+    "associates": [
+      "Sneaky Oracle",
+      "Sneaky Nurse"
+    ],
+    "enemies": [],
+    "nemesis": "Rapid Blob",
+    "citizenship": "Norway",
+    "backgroundStory": "Every road bent a little when Fuzzy Composer passed by. They tuned their instincts until silence had seams to pull. It was the Neon Fog that made Fuzzy Composer and Rapid Blob permanent in each other's plans. Sneaky Oracle reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Brave Professor",
+    "realName": "not applicable",
+    "age": 59,
+    "birthYear": 1966,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "flight",
+      "invisibility",
+      "speed",
+      "healing"
+    ],
+    "associates": [],
+    "enemies": [
+      "Sneaky Farmer",
+      "Grumpy Unit 38"
+    ],
+    "nemesis": "Velvet Walrus",
+    "citizenship": "Switzerland",
+    "backgroundStory": "Rumor says Brave Professor trained where maps fade and names blur. People noticed the way tools behaved around them—especially under pressure. the Echo Fault was the first time they read Velvet Walrus's rhythm. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Electric Artist",
+    "realName": "Haggar Holm",
+    "age": 57,
+    "birthYear": 1968,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "cunning"
+    ],
+    "associates": [
+      "Sly Shark",
+      "Merry Drone",
+      "Sneaky Blob 61"
+    ],
+    "enemies": [
+      "Solar Eagle",
+      "Fuzzy Plumber"
+    ],
+    "nemesis": "Quantum Pilot",
+    "citizenship": "Italy",
+    "backgroundStory": "Raised far from the spotlight, Electric Artist learned odd tricks early. A knack for cunning became a habit; a habit became a legend. the Broken Gate drew a bright circle; Quantum Pilot stood on the far side of it. Merry Drone reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Shadow Poet",
+    "realName": "Stein Khan",
+    "age": 79,
+    "birthYear": 1946,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "invisibility",
+      "immortality"
+    ],
+    "associates": [
+      "Cosmic Librarian",
+      "Lofty Mechanic",
+      "Rapid Unit"
+    ],
+    "enemies": [
+      "Turbo Seal",
+      "Odd Courier",
+      "Golden Nurse"
+    ],
+    "nemesis": "Sneaky Baker",
+    "citizenship": "Canada",
+    "backgroundStory": "Raised far from the spotlight, Shadow Poet learned odd tricks early. Old machines and older myths both answered when Shadow Poet called. the Midnight Incident drew a bright circle; Sneaky Baker stood on the far side of it. If the city holds its breath, Cosmic Librarian counts the beats with them. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Lunar Nurse",
+    "realName": "not applicable",
+    "age": 96,
+    "birthYear": 1929,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "immortality",
+      "stormCaller",
+      "telekinesis"
+    ],
+    "associates": [
+      "Arcane Seer",
+      "Odd Courier"
+    ],
+    "enemies": [
+      "Shadow Harvester"
+    ],
+    "nemesis": null,
+    "citizenship": "Colombia",
+    "backgroundStory": "Raised far from the spotlight, Lunar Nurse learned odd tricks early. People noticed the way tools behaved around them—especially under pressure. Odd Courier reminds them that speed without sense is just noise. Plans fail; patterns don’t. That is enough. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Golden Nurse",
+    "realName": "Pål Ngo",
+    "age": 17,
+    "birthYear": 2008,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "mindControl"
+    ],
+    "associates": [
+      "Quantum Cat",
+      "Solar Emissary",
+      "Lofty Ranger",
+      "Silent Warmind"
+    ],
+    "enemies": [
+      "Turbo Hawk",
+      "Velvet Walrus",
+      "Turbo Seal"
+    ],
+    "nemesis": null,
+    "citizenship": "Tunisia",
+    "backgroundStory": "Golden Nurse prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. Since then, Silent Warmind keeps pace, trading signals and patience. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Stormy Professor",
+    "realName": "Emma Garcia",
+    "age": 97,
+    "birthYear": 1928,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "echoLocator",
+      "speed",
+      "healing",
+      "immortality"
+    ],
+    "associates": [],
+    "enemies": [
+      "Bouncy Eagle"
+    ],
+    "nemesis": null,
+    "citizenship": "Tunisia",
+    "backgroundStory": "Rumor says Stormy Professor trained where maps fade and names blur. Practice made patterns; patterns made plans. They carry the night like a toolkit and walk on. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Arcane Scribe",
+    "realName": "Kari Iversen",
+    "age": 44,
+    "birthYear": 1981,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "flight",
+      "speed",
+      "echoLocator"
+    ],
+    "associates": [
+      "Shadow Warmind"
+    ],
+    "enemies": [
+      "Stormy Oracle",
+      "Shadow Carp"
+    ],
+    "nemesis": "Stormy Composer",
+    "citizenship": "Andromeda-VII",
+    "backgroundStory": "Arcane Scribe never aimed for fame; the world kept finding them. Practice made patterns; patterns made plans. the Quiet Uprising drew a bright circle; Stormy Composer stood on the far side of it. When angles get tight, Shadow Warmind lends a steadier line. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Odd Gardener",
+    "realName": "Yuki Garcia",
+    "age": 67,
+    "birthYear": 1958,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "pyrokinesis"
+    ],
+    "associates": [
+      "Shadow Chef",
+      "Odd Courier"
+    ],
+    "enemies": [
+      "Velvet Unit 7",
+      "Velvet Sentinel"
+    ],
+    "nemesis": null,
+    "citizenship": "Tunisia",
+    "backgroundStory": "Odd Gardener never aimed for fame; the world kept finding them. A knack for pyrokinesis became a habit; a habit became a legend. When angles get tight, Odd Courier lends a steadier line. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Odd Courier",
+    "realName": "Haggar Strand",
+    "age": 45,
+    "birthYear": 1980,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "stoneSkin",
+      "aquaBreath"
+    ],
+    "associates": [
+      "Sly Spindle",
+      "Fuzzy Smith",
+      "Odd Gardener",
+      "Cosmic Drone"
+    ],
+    "enemies": [],
+    "nemesis": "Lofty Ranger",
+    "citizenship": "Switzerland",
+    "backgroundStory": "Rumor says Odd Courier trained where maps fade and names blur. A knack for stoneSkin became a habit; a habit became a legend. It was the Neon Fog that made Odd Courier and Lofty Ranger permanent in each other's plans. When angles get tight, Fuzzy Smith lends a steadier line. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Cosmic Librarian",
+    "realName": "Siv Iversen",
+    "age": 90,
+    "birthYear": 1935,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "magnetism",
+      "healing",
+      "aquaBreath",
+      "teleportation"
+    ],
+    "associates": [
+      "Stormy Artist",
+      "Arcane Oracle"
+    ],
+    "enemies": [
+      "Sneaky Carp",
+      "Fuzzy Plumber"
+    ],
+    "nemesis": null,
+    "citizenship": "Switzerland",
+    "backgroundStory": "Cosmic Librarian never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. Since then, Stormy Artist keeps pace, trading signals and patience. Tomorrow is a moving target; that’s fine. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Velvet Courier",
+    "realName": "Rita Strand",
+    "age": 88,
+    "birthYear": 1937,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "speed",
+      "shapeShift"
+    ],
+    "associates": [
+      "Brave Bear",
+      "Merry Raven"
+    ],
+    "enemies": [],
+    "nemesis": "Solar Blob 81",
+    "citizenship": "Japan",
+    "backgroundStory": "Velvet Courier prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. Everything changed during the Neon Fog, when Solar Blob 81 stepped across the line. Maps change, but Brave Bear still meets them at the quiet corners. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Solar Artist",
+    "realName": "Siv Garcia",
+    "age": 75,
+    "birthYear": 1950,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "stormCaller"
+    ],
+    "associates": [
+      "Solar Blob 81",
+      "Odd Bear"
+    ],
+    "enemies": [
+      "Hollow Raven"
+    ],
+    "nemesis": "Stormy Node",
+    "citizenship": "UK",
+    "backgroundStory": "Rumor says Solar Artist trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. It was the Midnight Incident that made Solar Artist and Stormy Node permanent in each other's plans. Solar Blob 81 reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Fuzzy Smith",
+    "realName": "unknown",
+    "age": 40,
+    "birthYear": 1985,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "stormCaller"
+    ],
+    "associates": [],
+    "enemies": [
+      "Stormy Professor"
+    ],
+    "nemesis": null,
+    "citizenship": "Poland",
+    "backgroundStory": "Raised far from the spotlight, Fuzzy Smith learned odd tricks early. A knack for stormCaller became a habit; a habit became a legend. They carry the night like a toolkit and walk on. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Turbo Teacher",
+    "realName": "Ingrid Hansen",
+    "age": 34,
+    "birthYear": 1991,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "flight"
+    ],
+    "associates": [
+      "Sly Eagle",
+      "Golden Sparrow",
+      "Bouncy Badger"
+    ],
+    "enemies": [
+      "Brave Lattice"
+    ],
+    "nemesis": "Velvet Hedgehog",
+    "citizenship": "Norway",
+    "backgroundStory": "Raised far from the spotlight, Turbo Teacher learned odd tricks early. People noticed the way tools behaved around them—especially under pressure. the Echo Fault was the first time they read Velvet Hedgehog's rhythm. Golden Sparrow reminds them that speed without sense is just noise. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Lofty Ranger",
+    "realName": "Hilda Dahl",
+    "age": 87,
+    "birthYear": 1938,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "timeWarp",
+      "techWizard",
+      "teleportation"
+    ],
+    "associates": [
+      "Golden Nurse",
+      "Arcane Lattice 45"
+    ],
+    "enemies": [
+      "Golden Penguin"
+    ],
+    "nemesis": "Odd Courier",
+    "citizenship": "Egypt",
+    "backgroundStory": "Lofty Ranger never aimed for fame; the world kept finding them. Old machines and older myths both answered when Lofty Ranger called. the Neon Fog was the first time they read Odd Courier's rhythm. If the city holds its breath, Arcane Lattice 45 counts the beats with them. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Merry Postman",
+    "realName": "Marius Ngo",
+    "age": 53,
+    "birthYear": 1972,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "tactics",
+      "aquaBreath"
+    ],
+    "associates": [
+      "Arcane Courier"
+    ],
+    "enemies": [
+      "Shadow Walrus"
+    ],
+    "nemesis": "Merry Raven",
+    "citizenship": "Egypt",
+    "backgroundStory": "Raised far from the spotlight, Merry Postman learned odd tricks early. They tuned their instincts until silence had seams to pull. It was the Hivemind Murmur that made Merry Postman and Merry Raven permanent in each other's plans. Arcane Courier reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sneaky Oracle",
+    "realName": "QuoValUm Harvester",
+    "age": 204,
+    "birthYear": 1821,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "timeWarp",
+      "cunning"
+    ],
+    "associates": [
+      "Silent Walrus",
+      "Arcane Professor",
+      "Sneaky Penguin"
+    ],
+    "enemies": [
+      "Crimson Pilot"
+    ],
+    "nemesis": "Odd Lynx",
+    "citizenship": "Europa",
+    "backgroundStory": "Every road bent a little when Sneaky Oracle passed by. A knack for timeWarp became a habit; a habit became a legend. Everything changed during the Latch Puzzle, when Odd Lynx stepped across the line. If the city holds its breath, Arcane Professor counts the beats with them. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Arcane Seer",
+    "realName": "KryValVor Node",
+    "age": 1375,
+    "birthYear": 650,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "superStrength",
+      "telekinesis",
+      "pyrokinesis",
+      "immortality"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Venus",
+    "backgroundStory": "Raised far from the spotlight, Arcane Seer learned odd tricks early. People noticed the way tools behaved around them—especially under pressure. Plans fail; patterns don’t. That is enough. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Merry Drone",
+    "realName": "AeOrNyx Seer",
+    "age": 1605,
+    "birthYear": 420,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "timeWarp",
+      "telekinesis",
+      "echoLocator"
+    ],
+    "associates": [
+      "Sneaky Overmind"
+    ],
+    "enemies": [],
+    "nemesis": "Solar Emissary",
+    "citizenship": "Altair-IV",
+    "backgroundStory": "Merry Drone prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. It was the Titan Rains that made Merry Drone and Solar Emissary permanent in each other's plans. If the city holds its breath, Sneaky Overmind counts the beats with them. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Turbo Warden",
+    "realName": "unknown",
+    "age": 141,
+    "birthYear": 1884,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "invisibility",
+      "shapeShift",
+      "aquaBreath",
+      "stoneSkin"
+    ],
+    "associates": [
+      "Hollow Harvester",
+      "Cosmic Drone"
+    ],
+    "enemies": [
+      "Rapid Unit",
+      "Silent Warmind"
+    ],
+    "nemesis": "Lofty Fox",
+    "citizenship": "Vortexa",
+    "backgroundStory": "Rumor says Turbo Warden trained where maps fade and names blur. People noticed the way tools behaved around them—especially under pressure. Everything changed during the Hivemind Murmur, when Lofty Fox stepped across the line. If the city holds its breath, Hollow Harvester counts the beats with them. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Solar Emissary",
+    "realName": "QuoNyxGlor Warmind",
+    "age": 306,
+    "birthYear": 1719,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "speed",
+      "aquaBreath"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": "Merry Drone",
+    "citizenship": "Ganymede",
+    "backgroundStory": "Rumor says Solar Emissary trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. It was the Titan Rains that made Solar Emissary and Merry Drone permanent in each other's plans. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Silent Oracle 14",
+    "realName": "OrUmXen Warmind",
+    "age": 894,
+    "birthYear": 1131,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "stoneSkin",
+      "mindControl",
+      "timeWarp",
+      "speed"
+    ],
+    "associates": [],
+    "enemies": [
+      "Bouncy Blob"
+    ],
+    "nemesis": null,
+    "citizenship": "Nyx-12",
+    "backgroundStory": "Rumor says Silent Oracle 14 trained where maps fade and names blur. A knack for stoneSkin became a habit; a habit became a legend. The path ahead is narrow but lit enough for one more step. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Quantum Seer 87",
+    "realName": "ThaGlorXen Blob",
+    "age": 1442,
+    "birthYear": 583,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "flight",
+      "timeWarp",
+      "immortality",
+      "shadowStep"
+    ],
+    "associates": [
+      "Merry Raven",
+      "Bouncy Dog"
+    ],
+    "enemies": [
+      "Cosmic Librarian"
+    ],
+    "nemesis": "Sly Shark",
+    "citizenship": "Ceres",
+    "backgroundStory": "Quantum Seer 87 never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. the Broken Gate drew a bright circle; Sly Shark stood on the far side of it. When angles get tight, Bouncy Dog lends a steadier line. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Silver Blob 39",
+    "realName": "ThaQuoAe Seer",
+    "age": 960,
+    "birthYear": 1065,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "flight"
+    ],
+    "associates": [
+      "Bouncy Lattice",
+      "Cosmic Drone"
+    ],
+    "enemies": [
+      "Grumpy Courier",
+      "Solar Artist",
+      "Rapid Raven"
+    ],
+    "nemesis": "Shadow Pilot",
+    "citizenship": "Io",
+    "backgroundStory": "Silver Blob 39 prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. Everything changed during the Rusted Siren, when Shadow Pilot stepped across the line. When angles get tight, Bouncy Lattice lends a steadier line. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Odd Oracle",
+    "realName": "ThaOrXen Warden",
+    "age": 610,
+    "birthYear": 1415,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "flight"
+    ],
+    "associates": [],
+    "enemies": [
+      "Arcane Courier"
+    ],
+    "nemesis": "Sly Farmer",
+    "citizenship": "Europa",
+    "backgroundStory": "Odd Oracle never aimed for fame; the world kept finding them. A knack for flight became a habit; a habit became a legend. It was the Red Market that made Odd Oracle and Sly Farmer permanent in each other's plans. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Turbo Chancellor 10",
+    "realName": "ZoThaNyx Oracle",
+    "age": 517,
+    "birthYear": 1508,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "stormCaller",
+      "aquaBreath"
+    ],
+    "associates": [
+      "Electric Detective",
+      "Shadow Carp"
+    ],
+    "enemies": [],
+    "nemesis": "Sly Eagle",
+    "citizenship": "Orion-Delta",
+    "backgroundStory": "Every road bent a little when Turbo Chancellor 10 passed by. Practice made patterns; patterns made plans. It was the Frozen Dawn that made Turbo Chancellor 10 and Sly Eagle permanent in each other's plans. When angles get tight, Electric Detective lends a steadier line. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Sneaky Overmind",
+    "realName": "ZoGlorVal Lattice",
+    "age": 1597,
+    "birthYear": 428,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "pyrokinesis",
+      "shapeShift"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": "Arcane Mouse",
+    "citizenship": "Mars",
+    "backgroundStory": "Sneaky Overmind never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. the Hivemind Murmur was the first time they read Arcane Mouse's rhythm. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Rapid Unit",
+    "realName": "AeRylZo Node",
+    "age": 215,
+    "birthYear": 1810,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "tactics"
+    ],
+    "associates": [
+      "Shadow Poet",
+      "Hollow Spindle 65"
+    ],
+    "enemies": [],
+    "nemesis": "Crimson Cat",
+    "citizenship": "Europa",
+    "backgroundStory": "Every road bent a little when Rapid Unit passed by. Practice made patterns; patterns made plans. On the night of the Rusted Siren, the feud with Crimson Cat began in earnest. Shadow Poet reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Golden Warden 43",
+    "realName": "VorQuoUm Spindle",
+    "age": 1091,
+    "birthYear": 934,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "techWizard",
+      "timeWarp"
+    ],
+    "associates": [
+      "Stormy Node",
+      "Cosmic Drone"
+    ],
+    "enemies": [],
+    "nemesis": "Lofty Farmer",
+    "citizenship": "Titan",
+    "backgroundStory": "Golden Warden 43 prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. It was the Midnight Incident that made Golden Warden 43 and Lofty Farmer permanent in each other's plans. Cosmic Drone reminds them that speed without sense is just noise. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Turbo Lattice 5",
+    "realName": "XenXenNyx Blob",
+    "age": 225,
+    "birthYear": 1800,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "magnetism"
+    ],
+    "associates": [
+      "Lofty Composer",
+      "Bouncy Eagle"
+    ],
+    "enemies": [
+      "Grumpy Courier",
+      "Merry Carp",
+      "Brave Postman"
+    ],
+    "nemesis": "Stormy Oracle",
+    "citizenship": "Orion-Delta",
+    "backgroundStory": "Rumor says Turbo Lattice 5 trained where maps fade and names blur. Old machines and older myths both answered when Turbo Lattice 5 called. the Glass Bridge was the first time they read Stormy Oracle's rhythm. Lofty Composer reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Grumpy Construct",
+    "realName": "KryAeOr Harvester",
+    "age": 2025,
+    "birthYear": 0,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "shapeShift"
+    ],
+    "associates": [],
+    "enemies": [
+      "Fuzzy Sparrow",
+      "Turbo Chancellor 10"
+    ],
+    "nemesis": "Hollow Detective",
+    "citizenship": "Europa",
+    "backgroundStory": "Grumpy Construct never aimed for fame; the world kept finding them. Old machines and older myths both answered when Grumpy Construct called. Everything changed during the Latch Puzzle, when Hollow Detective stepped across the line. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Grumpy Unit 38",
+    "realName": "RylNyxRyl Chancellor",
+    "age": 1723,
+    "birthYear": 302,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "cunning"
+    ],
+    "associates": [
+      "Lofty Composer",
+      "Bouncy Eagle",
+      "Quantum Seer 87"
+    ],
+    "enemies": [
+      "Lofty Farmer"
+    ],
+    "nemesis": null,
+    "citizenship": "Umbra Prime",
+    "backgroundStory": "Rumor says Grumpy Unit 38 trained where maps fade and names blur. A knack for cunning became a habit; a habit became a legend. If the city holds its breath, Lofty Composer counts the beats with them. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Odd Unit 66",
+    "realName": "OrAeXen Warden",
+    "age": 1385,
+    "birthYear": 640,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "aquaBreath"
+    ],
+    "associates": [],
+    "enemies": [
+      "Silent Walrus"
+    ],
+    "nemesis": "Lunar Scribe",
+    "citizenship": "Aethon",
+    "backgroundStory": "Rumor says Odd Unit 66 trained where maps fade and names blur. A knack for aquaBreath became a habit; a habit became a legend. It was the Glass Bridge that made Odd Unit 66 and Lunar Scribe permanent in each other's plans. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Hollow Harvester",
+    "realName": "OrAeGlor Warmind",
+    "age": 143,
+    "birthYear": 1882,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "techWizard"
+    ],
+    "associates": [
+      "Bouncy Eagle"
+    ],
+    "enemies": [
+      "Lofty Fox",
+      "Sly Seal"
+    ],
+    "nemesis": "Brave Lattice",
+    "citizenship": "Ganymede",
+    "backgroundStory": "Rumor says Hollow Harvester trained where maps fade and names blur. A knack for techWizard became a habit; a habit became a legend. On the night of the Latch Puzzle, the feud with Brave Lattice began in earnest. Since then, Bouncy Eagle keeps pace, trading signals and patience. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Arcane Blob",
+    "realName": "unknown",
+    "age": 1915,
+    "birthYear": 110,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "telekinesis"
+    ],
+    "associates": [],
+    "enemies": [
+      "Velvet Walrus",
+      "Grumpy Construct"
+    ],
+    "nemesis": "Lofty Mechanic",
+    "citizenship": "Quallax",
+    "backgroundStory": "Arcane Blob prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. the Quiet Uprising was the first time they read Lofty Mechanic's rhythm. No banners. No speeches. Just the work. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Neon Chancellor 76",
+    "realName": "ZoVorGlor Warden",
+    "age": 1121,
+    "birthYear": 904,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "shapeShift"
+    ],
+    "associates": [
+      "Hollow Harvester",
+      "Shadow Walrus",
+      "Cosmic Drone"
+    ],
+    "enemies": [
+      "Brave Lattice",
+      "Quantum Cat"
+    ],
+    "nemesis": "Brave Postman",
+    "citizenship": "Krynn",
+    "backgroundStory": "Every road bent a little when Neon Chancellor 76 passed by. They tuned their instincts until silence had seams to pull. the Rusted Siren was the first time they read Brave Postman's rhythm. Since then, Hollow Harvester keeps pace, trading signals and patience. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Quantum Lattice",
+    "realName": "unknown",
+    "age": 1774,
+    "birthYear": 251,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "immortality"
+    ],
+    "associates": [],
+    "enemies": [
+      "Sneaky Overmind",
+      "Brave Bear"
+    ],
+    "nemesis": "Arcane Eagle",
+    "citizenship": "Krynn",
+    "backgroundStory": "Rumor says Quantum Lattice trained where maps fade and names blur. A knack for immortality became a habit; a habit became a legend. the Broken Gate drew a bright circle; Arcane Eagle stood on the far side of it. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Stormy Oracle",
+    "realName": "NyxRylZo Oracle",
+    "age": 1070,
+    "birthYear": 955,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "shapeShift",
+      "techWizard",
+      "invisibility",
+      "timeWarp"
+    ],
+    "associates": [],
+    "enemies": [
+      "Lofty Emissary",
+      "Arcane Seer",
+      "Shadow Walrus"
+    ],
+    "nemesis": "Turbo Lattice 5",
+    "citizenship": "Krynn",
+    "backgroundStory": "Raised far from the spotlight, Stormy Oracle learned odd tricks early. Practice made patterns; patterns made plans. the Glass Bridge drew a bright circle; Turbo Lattice 5 stood on the far side of it. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Keen Drone 28",
+    "realName": "ValUmQuo Warmind",
+    "age": 1587,
+    "birthYear": 438,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "stormCaller",
+      "teleportation",
+      "timeWarp"
+    ],
+    "associates": [
+      "Arcane Oracle"
+    ],
+    "enemies": [
+      "Electric Detective",
+      "Silent Warmind",
+      "Hollow Harvester"
+    ],
+    "nemesis": "Fuzzy Sparrow",
+    "citizenship": "Vortexa",
+    "backgroundStory": "Keen Drone 28 prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. the Titan Rains drew a bright circle; Fuzzy Sparrow stood on the far side of it. If the city holds its breath, Arcane Oracle counts the beats with them. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Golden Unit 73",
+    "realName": "QuoValOr Warmind",
+    "age": 2103,
+    "birthYear": 0,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "aquaBreath"
+    ],
+    "associates": [],
+    "enemies": [
+      "Bouncy Blob"
+    ],
+    "nemesis": null,
+    "citizenship": "Orion-Delta",
+    "backgroundStory": "Raised far from the spotlight, Golden Unit 73 learned odd tricks early. A knack for aquaBreath became a habit; a habit became a legend. Plans fail; patterns don’t. That is enough. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Solar Blob 81",
+    "realName": "ZoVorQuo Overmind",
+    "age": 2161,
+    "birthYear": 0,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "cunning",
+      "echoLocator"
+    ],
+    "associates": [
+      "Velvet Sentinel"
+    ],
+    "enemies": [
+      "Lofty Fox",
+      "Silent Hawk",
+      "Hollow Raven"
+    ],
+    "nemesis": "Velvet Courier",
+    "citizenship": "Mars",
+    "backgroundStory": "Solar Blob 81 prefers the edges of things—alleys, archives, antenna arrays. They tuned their instincts until silence had seams to pull. On the night of the Neon Fog, the feud with Velvet Courier began in earnest. If the city holds its breath, Velvet Sentinel counts the beats with them. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Shadow Overmind 39",
+    "realName": "unknown",
+    "age": 1654,
+    "birthYear": 371,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "timeWarp",
+      "sonicBoom"
+    ],
+    "associates": [],
+    "enemies": [
+      "Hollow Goat"
+    ],
+    "nemesis": "Odd Otter",
+    "citizenship": "Vortexa",
+    "backgroundStory": "Shadow Overmind 39 never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. Everything changed during the Glass Bridge, when Odd Otter stepped across the line. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Brave Node 9",
+    "realName": "ZoKryVor Chancellor",
+    "age": 301,
+    "birthYear": 1724,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "stormCaller",
+      "teleportation"
+    ],
+    "associates": [
+      "Silent Viper",
+      "Sneaky Penguin",
+      "Sly Shark"
+    ],
+    "enemies": [
+      "Bouncy Dog",
+      "Solar Poet"
+    ],
+    "nemesis": null,
+    "citizenship": "Altair-IV",
+    "backgroundStory": "Every road bent a little when Brave Node 9 passed by. A knack for stormCaller became a habit; a habit became a legend. If the city holds its breath, Sneaky Penguin counts the beats with them. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Cosmic Drone",
+    "realName": "NyxZoVor Blob",
+    "age": 1666,
+    "birthYear": 359,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "echoLocator",
+      "pyrokinesis",
+      "flight",
+      "sonicBoom"
+    ],
+    "associates": [
+      "Odd Courier",
+      "Silver Blob 39",
+      "Turbo Warden"
+    ],
+    "enemies": [
+      "Turbo Hawk"
+    ],
+    "nemesis": "Sneaky Blob 61",
+    "citizenship": "Ganymede",
+    "backgroundStory": "Cosmic Drone never aimed for fame; the world kept finding them. Practice made patterns; patterns made plans. It was the Rusted Siren that made Cosmic Drone and Sneaky Blob 61 permanent in each other's plans. Odd Courier reminds them that speed without sense is just noise. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Bouncy Blob",
+    "realName": "OrThaAe Lattice",
+    "age": 715,
+    "birthYear": 1310,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "shadowStep",
+      "immortality",
+      "invisibility",
+      "mindControl"
+    ],
+    "associates": [
+      "Solar Eagle",
+      "Hollow Goat"
+    ],
+    "enemies": [
+      "Velvet Unit 7",
+      "Arcane Professor"
+    ],
+    "nemesis": "Silent Hawk",
+    "citizenship": "Umbra Prime",
+    "backgroundStory": "Bouncy Blob never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. Everything changed during the Neon Fog, when Silent Hawk stepped across the line. When angles get tight, Hollow Goat lends a steadier line. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Shadow Harvester",
+    "realName": "GlorOrVal Unit",
+    "age": 135,
+    "birthYear": 1890,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "teleportation",
+      "sonicBoom",
+      "mindControl",
+      "flight"
+    ],
+    "associates": [],
+    "enemies": [
+      "Sneaky Oracle",
+      "Odd Bear",
+      "Fuzzy Chef"
+    ],
+    "nemesis": null,
+    "citizenship": "Nyx-12",
+    "backgroundStory": "Shadow Harvester prefers the edges of things—alleys, archives, antenna arrays. Old machines and older myths both answered when Shadow Harvester called. No banners. No speeches. Just the work. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Bouncy Lattice",
+    "realName": "unknown",
+    "age": 156,
+    "birthYear": 1869,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "aquaBreath",
+      "superStrength",
+      "mindControl"
+    ],
+    "associates": [
+      "Solar Oracle"
+    ],
+    "enemies": [],
+    "nemesis": "Arcane Oracle",
+    "citizenship": "Zephyra",
+    "backgroundStory": "Bouncy Lattice prefers the edges of things—alleys, archives, antenna arrays. Old machines and older myths both answered when Bouncy Lattice called. It was the Neon Fog that made Bouncy Lattice and Arcane Oracle permanent in each other's plans. Since then, Solar Oracle keeps pace, trading signals and patience. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Shadow Warmind",
+    "realName": "ValZoOr Warden",
+    "age": 208,
+    "birthYear": 1817,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "flight",
+      "magnetism"
+    ],
+    "associates": [
+      "Arcane Scribe",
+      "Golden Sparrow"
+    ],
+    "enemies": [],
+    "nemesis": "Silver Smith",
+    "citizenship": "Titan",
+    "backgroundStory": "Rumor says Shadow Warmind trained where maps fade and names blur. Old machines and older myths both answered when Shadow Warmind called. Everything changed during the Harbor Blackout, when Silver Smith stepped across the line. Maps change, but Golden Sparrow still meets them at the quiet corners. No banners. No speeches. Just the work."
+  },
+  {
+    "alterEgo": "Sneaky Blob 61",
+    "realName": "unknown",
+    "age": 1073,
+    "birthYear": 952,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "immortality",
+      "teleportation"
+    ],
+    "associates": [
+      "Arcane Courier",
+      "Electric Artist",
+      "Arcane Eagle",
+      "Velvet Unit 7"
+    ],
+    "enemies": [
+      "Merry Raven"
+    ],
+    "nemesis": "Cosmic Drone",
+    "citizenship": "Zephyra",
+    "backgroundStory": "Raised far from the spotlight, Sneaky Blob 61 learned odd tricks early. Practice made patterns; patterns made plans. On the night of the Rusted Siren, the feud with Cosmic Drone began in earnest. If the city holds its breath, Electric Artist counts the beats with them. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Lofty Emissary",
+    "realName": "QuoQuoXen Overmind",
+    "age": 462,
+    "birthYear": 1563,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "telekinesis",
+      "aquaBreath",
+      "stoneSkin"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Pluto",
+    "backgroundStory": "Raised far from the spotlight, Lofty Emissary learned odd tricks early. A knack for telekinesis became a habit; a habit became a legend. The path ahead is narrow but lit enough for one more step. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Solar Warden 40",
+    "realName": "XenNyxKry Oracle",
+    "age": 885,
+    "birthYear": 1140,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "magnetism",
+      "pyrokinesis",
+      "echoLocator",
+      "cunning"
+    ],
+    "associates": [],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Zephyra",
+    "backgroundStory": "Every road bent a little when Solar Warden 40 passed by. Practice made patterns; patterns made plans. No banners. No speeches. Just the work. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Silent Warmind",
+    "realName": "ZoQuoRyl Lattice",
+    "age": 524,
+    "birthYear": 1501,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "echoLocator",
+      "healing",
+      "sonicBoom",
+      "teleportation"
+    ],
+    "associates": [
+      "Golden Nurse"
+    ],
+    "enemies": [
+      "Golden Warden 43",
+      "Grumpy Composer"
+    ],
+    "nemesis": "Merry Artist",
+    "citizenship": "Mars",
+    "backgroundStory": "Silent Warmind never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. It was the Hivemind Murmur that made Silent Warmind and Merry Artist permanent in each other's plans. Since then, Golden Nurse keeps pace, trading signals and patience. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Arcane Oracle",
+    "realName": "QuoKryVal Drone",
+    "age": 1276,
+    "birthYear": 749,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "aquaBreath",
+      "healing",
+      "speed",
+      "pyrokinesis"
+    ],
+    "associates": [
+      "Keen Drone 28",
+      "Lofty Cat",
+      "Golden Penguin"
+    ],
+    "enemies": [
+      "Bouncy Dog"
+    ],
+    "nemesis": "Bouncy Lattice",
+    "citizenship": "Altair-IV",
+    "backgroundStory": "Raised far from the spotlight, Arcane Oracle learned odd tricks early. Practice made patterns; patterns made plans. Everything changed during the Neon Fog, when Bouncy Lattice stepped across the line. When angles get tight, Golden Penguin lends a steadier line. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Sly Spindle",
+    "realName": "ZoQuoUm Construct",
+    "age": 1278,
+    "birthYear": 747,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "echoLocator",
+      "invisibility"
+    ],
+    "associates": [
+      "Lunar Nurse",
+      "Rapid Wolf",
+      "Lunar Scribe"
+    ],
+    "enemies": [
+      "Brave Lattice",
+      "Arcane Ranger"
+    ],
+    "nemesis": "Velvet Unit 7",
+    "citizenship": "Quallax",
+    "backgroundStory": "Every road bent a little when Sly Spindle passed by. Old machines and older myths both answered when Sly Spindle called. It was the Hivemind Murmur that made Sly Spindle and Velvet Unit 7 permanent in each other's plans. Maps change, but Lunar Nurse still meets them at the quiet corners. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Rapid Blob",
+    "realName": "VorValKry Oracle",
+    "age": 2125,
+    "birthYear": 0,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "stormCaller",
+      "magnetism"
+    ],
+    "associates": [
+      "Silver Fox",
+      "Crimson Cat"
+    ],
+    "enemies": [
+      "Solar Blob 81",
+      "Sneaky Farmer",
+      "Silent Walrus"
+    ],
+    "nemesis": "Fuzzy Composer",
+    "citizenship": "Xenthar-9",
+    "backgroundStory": "Rapid Blob prefers the edges of things—alleys, archives, antenna arrays. People noticed the way tools behaved around them—especially under pressure. It was the Neon Fog that made Rapid Blob and Fuzzy Composer permanent in each other's plans. Since then, Crimson Cat keeps pace, trading signals and patience. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Stormy Node",
+    "realName": "AeGlorNyx Harvester",
+    "age": 182,
+    "birthYear": 1843,
+    "fullTimeHero": false,
+    "alignment": "hero",
+    "powers": [
+      "cunning",
+      "stoneSkin"
+    ],
+    "associates": [
+      "Odd Farmer"
+    ],
+    "enemies": [
+      "Merry Carp"
+    ],
+    "nemesis": "Solar Artist",
+    "citizenship": "Zephyra",
+    "backgroundStory": "Raised far from the spotlight, Stormy Node learned odd tricks early. Practice made patterns; patterns made plans. Everything changed during the Midnight Incident, when Solar Artist stepped across the line. Maps change, but Odd Farmer still meets them at the quiet corners. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Silent Blob",
+    "realName": "unknown",
+    "age": 303,
+    "birthYear": 1722,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "magnetism",
+      "speed",
+      "aquaBreath",
+      "flight"
+    ],
+    "associates": [
+      "Grumpy Viper",
+      "Bouncy Badger",
+      "Velvet Unit 7"
+    ],
+    "enemies": [
+      "Turbo Lattice 5",
+      "Neon Chancellor 76"
+    ],
+    "nemesis": null,
+    "citizenship": "Io",
+    "backgroundStory": "Rumor says Silent Blob trained where maps fade and names blur. Practice made patterns; patterns made plans. When angles get tight, Bouncy Badger lends a steadier line. No banners. No speeches. Just the work. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Quantum Oracle 5",
+    "realName": "unknown",
+    "age": 178,
+    "birthYear": 1847,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "aquaBreath",
+      "tactics"
+    ],
+    "associates": [
+      "Silent Warmind"
+    ],
+    "enemies": [
+      "Lofty Cat",
+      "Turbo Hawk"
+    ],
+    "nemesis": null,
+    "citizenship": "Europa",
+    "backgroundStory": "Quantum Oracle 5 never aimed for fame; the world kept finding them. People noticed the way tools behaved around them—especially under pressure. Silent Warmind reminds them that speed without sense is just noise. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Sneaky Blob 39",
+    "realName": "OrValXen Unit",
+    "age": 1481,
+    "birthYear": 544,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "invisibility",
+      "pyrokinesis",
+      "healing"
+    ],
+    "associates": [],
+    "enemies": [
+      "Rapid Blob",
+      "Shadow Pilot",
+      "Bouncy Blob"
+    ],
+    "nemesis": null,
+    "citizenship": "Altair-IV",
+    "backgroundStory": "Sneaky Blob 39 prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. Tomorrow is a moving target; that’s fine. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Hollow Spindle 65",
+    "realName": "not applicable",
+    "age": 1068,
+    "birthYear": 957,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "timeWarp",
+      "sonicBoom",
+      "mindControl",
+      "pyrokinesis"
+    ],
+    "associates": [
+      "Rapid Unit"
+    ],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Ceres",
+    "backgroundStory": "Every road bent a little when Hollow Spindle 65 passed by. They tuned their instincts until silence had seams to pull. Rapid Unit reminds them that speed without sense is just noise. They carry the night like a toolkit and walk on."
+  },
+  {
+    "alterEgo": "Velvet Unit 7",
+    "realName": "ZoThaUm Chancellor",
+    "age": 498,
+    "birthYear": 1527,
+    "fullTimeHero": true,
+    "alignment": "villain",
+    "powers": [
+      "teleportation",
+      "shadowStep",
+      "mindControl"
+    ],
+    "associates": [
+      "Grumpy Composer",
+      "Sneaky Blob 61",
+      "Silent Blob"
+    ],
+    "enemies": [
+      "Quantum Pilot"
+    ],
+    "nemesis": "Sly Spindle",
+    "citizenship": "Ceres",
+    "backgroundStory": "Velvet Unit 7 prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. On the night of the Hivemind Murmur, the feud with Sly Spindle began in earnest. Maps change, but Silent Blob still meets them at the quiet corners. Plans fail; patterns don’t. That is enough."
+  },
+  {
+    "alterEgo": "Solar Overmind",
+    "realName": "not applicable",
+    "age": 287,
+    "birthYear": 1738,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "tactics"
+    ],
+    "associates": [],
+    "enemies": [
+      "Lofty Cat",
+      "Shadow Barista"
+    ],
+    "nemesis": null,
+    "citizenship": "Zephyra",
+    "backgroundStory": "Solar Overmind prefers the edges of things—alleys, archives, antenna arrays. A knack for tactics became a habit; a habit became a legend. Tomorrow is a moving target; that’s fine. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Brave Lattice",
+    "realName": "NyxRylVal Blob",
+    "age": 219,
+    "birthYear": 1806,
+    "fullTimeHero": true,
+    "alignment": "neutral",
+    "powers": [
+      "timeWarp"
+    ],
+    "associates": [
+      "Merry Carp",
+      "Silver Fox",
+      "Quantum Cat"
+    ],
+    "enemies": [
+      "Silent Walrus"
+    ],
+    "nemesis": "Hollow Harvester",
+    "citizenship": "Io",
+    "backgroundStory": "Brave Lattice prefers the edges of things—alleys, archives, antenna arrays. Practice made patterns; patterns made plans. Everything changed during the Latch Puzzle, when Hollow Harvester stepped across the line. Quantum Cat reminds them that speed without sense is just noise. The path ahead is narrow but lit enough for one more step."
+  },
+  {
+    "alterEgo": "Velvet Sentinel",
+    "realName": "UmOrQuo Seer",
+    "age": 1503,
+    "birthYear": 522,
+    "fullTimeHero": false,
+    "alignment": "villain",
+    "powers": [
+      "echoLocator",
+      "invisibility"
+    ],
+    "associates": [],
+    "enemies": [
+      "Shadow Harvester"
+    ],
+    "nemesis": null,
+    "citizenship": "Quallax",
+    "backgroundStory": "Rumor says Velvet Sentinel trained where maps fade and names blur. They tuned their instincts until silence had seams to pull. Plans fail; patterns don’t. That is enough. They kept notes in margins and messages in echoes until meaning held."
+  },
+  {
+    "alterEgo": "Arcane Lattice 45",
+    "realName": "RylGlorKry Warden",
+    "age": 195,
+    "birthYear": 1830,
+    "fullTimeHero": false,
+    "alignment": "neutral",
+    "powers": [
+      "invisibility",
+      "shapeShift"
+    ],
+    "associates": [
+      "Sneaky Baker",
+      "Lofty Fox",
+      "Lofty Ranger"
+    ],
+    "enemies": [],
+    "nemesis": null,
+    "citizenship": "Nyx-12",
+    "backgroundStory": "Arcane Lattice 45 never aimed for fame; the world kept finding them. Old machines and older myths both answered when Arcane Lattice 45 called. Sneaky Baker reminds them that speed without sense is just noise. Tomorrow is a moving target; that’s fine."
+  },
+  {
+    "alterEgo": "Solar Oracle",
+    "realName": "unknown",
+    "age": 1417,
+    "birthYear": 608,
+    "fullTimeHero": true,
+    "alignment": "hero",
+    "powers": [
+      "invisibility",
+      "superStrength"
+    ],
+    "associates": [
+      "Cosmic Drone",
+      "Hollow Raven"
+    ],
+    "enemies": [],
+    "nemesis": "Sneaky Penguin",
+    "citizenship": "Aethon",
+    "backgroundStory": "Solar Oracle never aimed for fame; the world kept finding them. They tuned their instincts until silence had seams to pull. the Tractor Glow drew a bright circle; Sneaky Penguin stood on the far side of it. When angles get tight, Cosmic Drone lends a steadier line. They carry the night like a toolkit and walk on."
+  }
+]

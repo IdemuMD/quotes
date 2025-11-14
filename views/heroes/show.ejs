@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= hero.alterEgo %></title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+        .detail { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1><%= hero.alterEgo %></h1>
+    <a href="/heroes">Back to All Heroes</a> | <a href="/heroes/<%= hero._id %>/edit">Edit</a>
+    <div class="detail"><strong>Real Name:</strong> <%= hero.realName %></div>
+    <div class="detail"><strong>Age:</strong> <%= hero.age %></div>
+    <div class="detail"><strong>Birth Year:</strong> <%= hero.birthYear %></div>
+    <div class="detail"><strong>Full Time Hero:</strong> <%= hero.fullTimeHero ? 'Yes' : 'No' %></div>
+    <div class="detail"><strong>Alignment:</strong> <%= hero.alignment %></div>
+    <div class="detail"><strong>Powers:</strong> <%= hero.powers.join(', ') %></div>
+    <div class="detail"><strong>Associates:</strong> <%= hero.associates.join(', ') %></div>
+    <div class="detail"><strong>Enemies:</strong> <%= hero.enemies.join(', ') %></div>
+    <div class="detail"><strong>Nemesis:</strong> <%= hero.nemesis %></div>
+    <div class="detail"><strong>Citizenship:</strong> <%= hero.citizenship %></div>
+    <div class="detail"><strong>Background Story:</strong> <%= hero.backgroundStory %></div>
+</body>
+</html>
