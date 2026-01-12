@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Details</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+        .detail { margin: 10px 0; }
+        .quote-text { font-size: 1.5em; font-style: italic; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Quote Details</h1>
+    <a href="/quotes">Back to All Quotes</a> | <a href="/quotes/<%= quote._id %>/edit">Edit</a>
+    <div class="quote-text">"<%= quote.text %>"</div>
+    <div class="detail"><strong>Author:</strong> <%= quote.author %></div>
+    <div class="detail"><strong>Category:</strong> <%= quote.category %></div>
+    <div class="detail"><strong>Source:</strong> <%= quote.source || 'Unknown' %></div>
+    <div class="detail"><strong>Date Added:</strong> <%= quote.dateAdded.toLocaleDateString() %></div>
+    <div class="detail"><strong>Likes:</strong> <%= quote.likes %></div>
+    <div class="detail"><strong>Favorite:</strong> <%= quote.isFavorite ? 'Yes' : 'No' %></div>
+</body>
+</html>

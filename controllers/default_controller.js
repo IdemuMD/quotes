@@ -1,10 +1,10 @@
 
-const Hero = require('../models/hero-model');
+const Quote = require('../models/quote-model');
 
 const index_render = async (req, res) => {
     try {
-        const heroes = await Hero.find();
-        res.render("index", { heroes });
+        const quotes = await Quote.find();
+        res.render("index", { quotes });
     } catch (error) {
         res.status(500).send(error.message);
     }

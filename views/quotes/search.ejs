@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Quotes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        form { margin-bottom: 20px; }
+        input { padding: 5px; }
+        button { padding: 5px 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .quote { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
+        .quote h3 { margin: 0; }
+        .actions { margin-top: 10px; }
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Search Quotes</h1>
+    <a href="/quotes">Back to All Quotes</a>
+    <form action="/quotes/search" method="GET">
+        <input type="text" name="q" placeholder="Search by quote text, author, or category" value="<%= typeof query !== 'undefined' ? query : '' %>" required>
+        <button type="submit">Search</button>
+    </form>
+    <% if (quotes && quotes.length > 0) { %>
+        <h2>Results for "<%= query %>"</h2>
+        <% quotes.forEach(quote => { %>
+            <div class="quote">
+                <h3>"<%= quote.text %>"</h3>
+                <p><strong>Author:</strong> <%= quote.author %></p>
+                <p><strong>Category:</strong> <%= quote.category %></p>
+                <div class="actions">
+                    <a href="/quotes/<%= quote._id %>">View Details</a> |
+                    <a href="/quotes/<%= quote._id %>/edit">Edit</a> |
+                    <form action="/quotes/<%= quote._id %>?_method=DELETE" method="POST" style="display:inline;">
+                        <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
+                    </form>
+                </div>
+            </div>
+        <% }) %>
+    <% } else if (typeof query !== 'undefined') { %>
+        <p>No quotes found for "<%= query %>".</p>
+    <% } %>
+</body>
+</html>

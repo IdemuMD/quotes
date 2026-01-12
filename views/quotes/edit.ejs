@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Quote</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        form { max-width: 400px; }
+        label { display: block; margin-top: 10px; }
+        input, select, textarea { width: 100%; padding: 5px; }
+        button { margin-top: 10px; padding: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Edit Quote</h1>
+    <a href="/quotes/<%= quote._id %>">Back to Quote</a>
+    <% if (typeof error !== 'undefined') { %>
+        <p class="error"><%= error %></p>
+    <% } %>
+    <form action="/quotes/<%= quote._id %>?_method=PUT" method="POST">
+        <label for="text">Quote Text:</label>
+        <textarea id="text" name="text" required><%= quote.text %></textarea>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" value="<%= quote.author %>" required>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="inspiration" <%= quote.category === 'inspiration' ? 'selected' : '' %>>Inspiration</option>
+            <option value="motivation" <%= quote.category === 'motivation' ? 'selected' : '' %>>Motivation</option>
+            <option value="wisdom" <%= quote.category === 'wisdom' ? 'selected' : '' %>>Wisdom</option>
+            <option value="humor" <%= quote.category === 'humor' ? 'selected' : '' %>>Humor</option>
+            <option value="life" <%= quote.category === 'life' ? 'selected' : '' %>>Life</option>
+            <option value="love" <%= quote.category === 'love' ? 'selected' : '' %>>Love</option>
+            <option value="success" <%= quote.category === 'success' ? 'selected' : '' %>>Success</option>
+            <option value="other" <%= quote.category === 'other' ? 'selected' : '' %>>Other</option>
+        </select>
+
+        <label for="source">Source (optional):</label>
+        <input type="text" id="source" name="source" value="<%= quote.source || '' %>">
+
+        <label for="likes">Likes:</label>
+        <input type="number" id="likes" name="likes" value="<%= quote.likes %>">
+
+        <label for="isFavorite">Favorite:</label>
+        <select id="isFavorite" name="isFavorite">
+            <option value="false" <%= !quote.isFavorite ? 'selected' : '' %>>No</option>
+            <option value="true" <%= quote.isFavorite ? 'selected' : '' %>>Yes</option>
+        </select>
+
+        <button type="submit">Update Quote</button>
+    </form>
+</body>
+</html>
