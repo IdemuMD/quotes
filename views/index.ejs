@@ -12,25 +12,49 @@
         .quote { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
         .quote h3 { margin: 0; }
         .actions { margin-top: 10px; }
+        .user-info { background: #f0f0f0; padding: 10px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <h1>Quote Collection</h1>
-    <a href="/quotes">View All Quotes</a> | <a href="/quotes/new">Add New Quote</a> | <a href="/quotes/search">Search Quotes</a>
+    <div class="user-info">
+        <% if (typeof user !== 'undefined' && user) { %>
+            <span>Welcome, <strong><%= user.username %></strong>!</span>
+            <a href="/quotes">View All Quotes</a> | 
+            <a href="/quotes/new">Add New Quote</a> | 
+            <a href="/quotes/search">Search Quotes</a> | 
+            <a href="/auth/logout">Logout</a>
+        <% } else { %>
+            <span>Welcome, guest!</span>
+            <a href="/auth/login">Login</a> | 
+            <a href="/auth/register">Register</a> | 
+            <a href="/quotes">View All Quotes</a> | 
+            <a href="/quotes/search">Search Quotes</a>
+        <% } %>
+    </div>
     <h2>All Quotes</h2>
-    <% quotes.forEach(quote => { %>
-        <div class="quote">
-            <h3>"<%= quote.text %>"</h3>
-            <p><strong>Author:</strong> <%= quote.author %></p>
-            <p><strong>Category:</strong> <%= quote.category %></p>
-            <div class="actions">
-                <a href="/quotes/<%= quote._id %>">View Details</a> |
-                <a href="/quotes/<%= quote._id %>/edit">Edit</a> |
-                <form action="/quotes/<%= quote._id %>?_method=DELETE" method="POST" style="display:inline;">
-                    <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
-                </form>
+    <% if (typeof quotes !== 'undefined' && quotes.length > 0) { %>
+        <% quotes.forEach(quote => { %>
+            <div class="quote">
+                <h3>"<%= quote.text %>"</h3>
+                <p><strong>Author:</strong> <%= quote.author %></p>
+                <p><strong>Category:</strong> <%= quote.category %></p>
+                <% if (quote.user) { %>
+                    <p><strong>Added by:</strong> <%= quote.user.username %></p>
+                <% } %>
+                <div class="actions">
+                    <a href="/quotes/<%= quote._id %>">View Details</a>
+                    <% if (typeof user !== 'undefined' && user && quote.user && quote.user._id.toString() === user._id.toString()) { %>
+                        | <a href="/quotes/<%= quote._id %>/edit">Edit</a> |
+                        <form action="/quotes/<%= quote._id %>?_method=DELETE" method="POST" style="display:inline;">
+                            <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
+                        </form>
+                    <% } %>
+                </div>
             </div>
-        </div>
-    <% }) %>
+        <% }) %>
+    <% } else { %>
+        <p>No quotes found. <% if (typeof user !== 'undefined' && user) { %><a href="/quotes/new">Add the first quote!</a><% } else { %><a href="/auth/register">Register</a> or <a href="/auth/login">login</a> to add quotes.<% } %></p>
+    <% } %>
 </body>
 </html>

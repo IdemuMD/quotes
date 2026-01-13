@@ -11,11 +11,27 @@
         a:hover { text-decoration: underline; }
         .detail { margin: 10px 0; }
         .quote-text { font-size: 1.5em; font-style: italic; margin: 20px 0; }
+        .user-info { background: #f0f0f0; padding: 10px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <h1>Quote Details</h1>
-    <a href="/quotes">Back to All Quotes</a> | <a href="/quotes/<%= quote._id %>/edit">Edit</a>
+    <div class="user-info">
+        <% if (typeof user !== 'undefined' && user) { %>
+            <span>Welcome, <strong><%= user.username %></strong>!</span>
+            <a href="/quotes">Back to All Quotes</a> | 
+            <a href="/auth/logout">Logout</a>
+        <% } else { %>
+            <span>Welcome, guest!</span>
+            <a href="/quotes">Back to All Quotes</a> | 
+            <a href="/auth/login">Login</a> | 
+            <a href="/auth/register">Register</a>
+        <% } %>
+    </div>
+    <a href="/quotes">Back to All Quotes</a>
+    <% if (typeof user !== 'undefined' && user && quote.user && quote.user._id.toString() === user._id.toString()) { %>
+        | <a href="/quotes/<%= quote._id %>/edit">Edit</a>
+    <% } %>
     <div class="quote-text">"<%= quote.text %>"</div>
     <div class="detail"><strong>Author:</strong> <%= quote.author %></div>
     <div class="detail"><strong>Category:</strong> <%= quote.category %></div>
@@ -23,5 +39,8 @@
     <div class="detail"><strong>Date Added:</strong> <%= quote.dateAdded.toLocaleDateString() %></div>
     <div class="detail"><strong>Likes:</strong> <%= quote.likes %></div>
     <div class="detail"><strong>Favorite:</strong> <%= quote.isFavorite ? 'Yes' : 'No' %></div>
+    <% if (quote.user) { %>
+        <div class="detail"><strong>Added by:</strong> <%= quote.user.username %></div>
+    <% } %>
 </body>
 </html>
