@@ -110,13 +110,22 @@ exports.delete = async (req, res) => {
 exports.search = async (req, res) => {
   try {
     const query = req.query.q;
+    
+    // First, find users matching the query
+    const User = require('../models/user-model');
+    const matchingUsers = await User.find({ username: new RegExp(query, 'i') }).select('_id');
+    const matchingUserIds = matchingUsers.map(user => user._id);
+    
+    // Search in quotes by text, author, category OR by user ID
     const quotes = await Quote.find({
       $or: [
         { text: new RegExp(query, 'i') },
         { author: new RegExp(query, 'i') },
-        { category: new RegExp(query, 'i') }
+        { category: new RegExp(query, 'i') },
+        { user: { $in: matchingUserIds } }
       ]
     }).populate('user', 'username');
+    
     res.render('quotes/search', { quotes, query });
   } catch (error) {
     res.status(500).send(error.message);
