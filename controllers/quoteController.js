@@ -32,8 +32,11 @@ exports.create = async (req, res) => {
     return res.redirect('/auth/login');
   }
   try {
+    const { text, author, category } = req.body;
     const quote = new Quote({
-      ...req.body,
+      text,
+      author,
+      category,
       user: req.session.userId
     });
     await quote.save();
@@ -75,7 +78,8 @@ exports.update = async (req, res) => {
       return res.status(403).send('You can only edit your own quotes');
     }
 
-    await Quote.findByIdAndUpdate(req.params.id, req.body);
+    const { text, author, category } = req.body;
+    await Quote.findByIdAndUpdate(req.params.id, { text, author, category });
     res.redirect('/quotes');
   } catch (error) {
     const quote = await Quote.findById(req.params.id);
@@ -118,3 +122,40 @@ exports.search = async (req, res) => {
     res.status(500).send(error.message);
   }
 };
+
+// Like - toggle like on quote
+exports.like = async (req, res) => {
+  try {
+    const quote = await Quote.findById(req.params.id);
+    
+    if (!quote) {
+      return res.status(404).send('Quote not found');
+    }
+    
+    if (!req.session.userId) {
+      return res.redirect('/auth/login');
+    }
+    
+    const userId = req.session.userId;
+    const isLiked = quote.likedBy && quote.likedBy.some(id => id.toString() === userId.toString());
+    
+    if (isLiked) {
+      // Unlike
+      quote.likedBy = quote.likedBy.filter(id => id.toString() !== userId.toString());
+      quote.likes = Math.max(0, quote.likes - 1);
+    } else {
+      // Like
+      quote.likedBy.push(userId);
+      quote.likes += 1;
+    }
+    
+    await quote.save();
+    
+    // Redirect back to the page user came from
+    const referer = req.get('Referer') || '/quotes';
+    res.redirect(referer);
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+};
+

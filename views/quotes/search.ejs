@@ -3,63 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Quotes</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; }
-        form { margin-bottom: 20px; }
-        input { padding: 5px; }
-        button { padding: 5px 10px; background: #007bff; color: white; border: none; cursor: pointer; }
-        button:hover { background: #0056b3; }
-        .quote { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
-        .quote h3 { margin: 0; }
-        .actions { margin-top: 10px; }
-        a { text-decoration: none; color: #007bff; }
-        a:hover { text-decoration: underline; }
-        .user-info { background: #f0f0f0; padding: 10px; margin-bottom: 20px; }
-    </style>
+    <title>Search Quotes - Quote Collection</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>Search Quotes</h1>
-    <div class="user-info">
-        <% if (typeof user !== 'undefined' && user) { %>
-            <span>Welcome, <strong><%= user.username %></strong>!</span>
-            <a href="/quotes">Back to All Quotes</a> | 
-            <a href="/auth/logout">Logout</a>
-        <% } else { %>
-            <span>Welcome, guest!</span>
-            <a href="/quotes">Back to All Quotes</a> | 
-            <a href="/auth/login">Login</a> | 
-            <a href="/auth/register">Register</a>
-        <% } %>
-    </div>
-    <form action="/quotes/search" method="GET">
-        <input type="text" name="q" placeholder="Search by quote text, author, or category" value="<%= typeof query !== 'undefined' ? query : '' %>" required>
-        <button type="submit">Search</button>
-    </form>
-    <% if (quotes && quotes.length > 0) { %>
-        <h2>Results for "<%= query %>"</h2>
-        <% quotes.forEach(quote => { %>
-            <div class="quote">
-                <h3>"<%= quote.text %>"</h3>
-                <p><strong>Author:</strong> <%= quote.author %></p>
-                <p><strong>Category:</strong> <%= quote.category %></p>
-                <% if (quote.user) { %>
-                    <p><strong>Added by:</strong> <%= quote.user.username %></p>
-                <% } %>
-                <div class="actions">
-                    <a href="/quotes/<%= quote._id %>">View Details</a>
-                    <% if (typeof user !== 'undefined' && user && quote.user && quote.user._id.toString() === user._id.toString()) { %>
-                        | <a href="/quotes/<%= quote._id %>/edit">Edit</a> |
-                        <form action="/quotes/<%= quote._id %>?_method=DELETE" method="POST" style="display:inline;">
-                            <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
-                        </form>
-                    <% } %>
+    <header>
+        <a href="/" class="logo">Quote Collection</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/quotes/search">search</a>
+            <% if (typeof user !== 'undefined' && user) { %>
+                <a href="/quotes/new">add quotes</a>
+            <% } %>
+        </nav>
+        <div class="auth-links">
+            <% if (typeof user !== 'undefined' && user) { %>
+                <span class="user-welcome">Welcome, <%= user.username %>!</span>
+                <a href="/auth/logout">Logout</a>
+            <% } else { %>
+                <a href="/auth/login">Login</a>
+                <a href="/auth/register">Register</a>
+            <% } %>
+        </div>
+    </header>
+    
+    <main class="main-content wide">
+        <h1>Search Quotes</h1>
+        
+        <div class="search-form">
+            <form action="/quotes/search" method="GET">
+                <label for="q">Search for quotes:</label>
+                <div class="search-input-group">
+                    <input type="text" id="q" name="q" placeholder="Enter search term..." value="<%= typeof query !== 'undefined' ? query : '' %>" required>
+                    <button type="submit">Search</button>
                 </div>
+            </form>
+        </div>
+        
+        <% if (quotes && quotes.length > 0) { %>
+            <h2 class="section-title">Results for "<%= query %>"</h2>
+            <div class="quotes-list">
+                <% quotes.forEach(quote => { %>
+                    <article class="quote-card">
+                        <blockquote class="quote-text"><%= quote.text %></blockquote>
+                        <div class="quote-meta">
+                            <span><strong>Author:</strong> <%= quote.author %></span>
+                            <span><strong>Category:</strong> <%= quote.category %></span>
+                            <% if (quote.user) { %>
+                                <span><strong>Added by:</strong> <%= quote.user.username %></span>
+                            <% } %>
+                        </div>
+                        <div class="quote-actions">
+                            <a href="/quotes/<%= quote._id %>">View Details</a>
+                            <% if (typeof user !== 'undefined' && user && quote.user && quote.user._id.toString() === user._id.toString()) { %>
+                                <a href="/quotes/<%= quote._id %>/edit">Edit</a>
+                                <form action="/quotes/<%= quote._id %>?_method=DELETE" method="POST" style="display:inline;">
+                                    <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
+                                </form>
+                            <% } %>
+                            <% if (typeof user !== 'undefined' && user) { %>
+                                <% const isLiked = quote.likedBy && quote.likedBy.some(id => id.toString() === user._id.toString()); %>
+                                <form action="/quotes/<%= quote._id %>/like" method="POST" style="display:inline;">
+                                    <button type="submit" class="like-button <%= isLiked ? 'liked' : '' %>">
+                                        <%= isLiked ? '♥' : '♡' %> <%= quote.likes || 0 %> Likes
+                                    </button>
+                                </form>
+                            <% } %>
+                        </div>
+                    </article>
+                <% }) %>
             </div>
-        <% }) %>
-    <% } else if (typeof query !== 'undefined') { %>
-        <p>No quotes found for "<%= query %>".</p>
-    <% } %>
+        <% } else if (typeof query !== 'undefined') { %>
+            <div class="no-results">
+                <p>No quotes found for "<%= query %>".</p>
+                <p>Try different keywords or <a href="/quotes/search">clear the search</a>.</p>
+            </div>
+        <% } %>
+    </main>
 </body>
 </html>
+

@@ -3,58 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote Collection</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; }
-        a { text-decoration: none; color: #007bff; }
-        a:hover { text-decoration: underline; }
-        .quote { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
-        .quote h3 { margin: 0; }
-        .actions { margin-top: 10px; }
-        .user-info { background: #f0f0f0; padding: 10px; margin-bottom: 20px; }
-    </style>
+    <title>Quote Collection - Daily Inspiration</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>Quote Collection</h1>
-    <div class="user-info">
-        <% if (typeof user !== 'undefined' && user) { %>
-            <span>Welcome, <strong><%= user.username %></strong>!</span>
-            <a href="/quotes">View All Quotes</a> | 
-            <a href="/quotes/new">Add New Quote</a> | 
-            <a href="/quotes/search">Search Quotes</a> | 
-            <a href="/auth/logout">Logout</a>
-        <% } else { %>
-            <span>Welcome, guest!</span>
-            <a href="/auth/login">Login</a> | 
-            <a href="/auth/register">Register</a> | 
-            <a href="/quotes">View All Quotes</a> | 
-            <a href="/quotes/search">Search Quotes</a>
-        <% } %>
-    </div>
-    <h2>All Quotes</h2>
-    <% if (typeof quotes !== 'undefined' && quotes.length > 0) { %>
-        <% quotes.forEach(quote => { %>
-            <div class="quote">
-                <h3>"<%= quote.text %>"</h3>
-                <p><strong>Author:</strong> <%= quote.author %></p>
-                <p><strong>Category:</strong> <%= quote.category %></p>
-                <% if (quote.user) { %>
-                    <p><strong>Added by:</strong> <%= quote.user.username %></p>
-                <% } %>
-                <div class="actions">
-                    <a href="/quotes/<%= quote._id %>">View Details</a>
-                    <% if (typeof user !== 'undefined' && user && quote.user && quote.user._id.toString() === user._id.toString()) { %>
-                        | <a href="/quotes/<%= quote._id %>/edit">Edit</a> |
-                        <form action="/quotes/<%= quote._id %>?_method=DELETE" method="POST" style="display:inline;">
-                            <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
-                        </form>
+    <header role="banner">
+        <a href="/" class="logo" aria-label="Quote Collection Home">Quote Collection</a>
+        
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="/">Home</a>
+            <a href="/quotes/search">search</a>
+            <% if (typeof user !== 'undefined' && user) { %>
+                <a href="/quotes/new">add quotes</a>
+            <% } %>
+        </nav>
+        
+        <div class="auth-links" role="navigation" aria-label="User menu">
+            <% if (typeof user !== 'undefined' && user) { %>
+                <span class="user-welcome" aria-live="polite">Welcome, <%= user.username %>!</span>
+                <a href="/auth/logout">Logout</a>
+            <% } else { %>
+                <a href="/auth/login">Login</a>
+                <a href="/auth/register">Register</a>
+            <% } %>
+        </div>
+    </header>
+    
+    <main class="main-content content-center" role="main">
+        <h1 class="hero-title">Discover Inspiration</h1>
+        <p class="hero-subtitle">A random quote curated just for you</p>
+        
+        <% if (typeof quote !== 'undefined' && quote) { %>
+            <article class="quote-showcase" aria-labelledby="quote-text">
+                <span class="featured-label">Featured Quote</span>
+                
+                <blockquote class="quote-text" id="quote-text"><%= quote.text %></blockquote>
+                
+                <p class="quote-author">
+                    <strong>— <%= quote.author %></strong>
+                    <% if (quote.user) { %>
+                        <br><span class="quote-count">Added by <%= quote.user.username %></span>
                     <% } %>
+                </p>
+                
+                <div class="quote-actions">
+                    <% if (typeof user !== 'undefined' && user) { %>
+                        <% const isLiked = quote.likedBy && quote.likedBy.some(id => id.toString() === user._id.toString()); %>
+                        <form action="/quotes/<%= quote._id %>/like" method="POST">
+                            <button type="submit" class="like-button <%= isLiked ? 'liked' : '' %>" aria-label="<%= isLiked ? 'Unlike this quote' : 'Like this quote - Currently has ' + (quote.likes || 0) + ' likes' %>">
+                                <%= isLiked ? '♥' : '♡' %> <%= quote.likes || 0 %> Likes
+                            </button>
+                        </form>
+                    <% } else { %>
+                        <span class="quote-count"><%= quote.likes || 0 %> Likes</span>
+                    <% } %>
+                    
+                    <a href="/quotes/<%= quote._id %>" aria-label="View full details of this quote">View Details →</a>
                 </div>
+            </article>
+        <% } else { %>
+            <div class="empty-state" role="status">
+                <h2>No Quotes Yet</h2>
+                <p>Be the first to add a quote and inspire others!</p>
+                <% if (typeof user !== 'undefined' && user) { %>
+                    <a href="/quotes/new" class="btn">Add the First Quote</a>
+                <% } else { %>
+                    <a href="/auth/register" class="btn">Register</a> or <a href="/auth/login">Login</a> to add quotes
+                <% } %>
             </div>
-        <% }) %>
-    <% } else { %>
-        <p>No quotes found. <% if (typeof user !== 'undefined' && user) { %><a href="/quotes/new">Add the first quote!</a><% } else { %><a href="/auth/register">Register</a> or <a href="/auth/login">login</a> to add quotes.<% } %></p>
-    <% } %>
+        <% } %>
+    </main>
 </body>
 </html>
+

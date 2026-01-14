@@ -10,5 +10,7 @@ router.get('/:id', quoteController.show);
 router.get('/:id/edit', quoteController.edit);
 router.put('/:id', quoteController.update);
 router.delete('/:id', quoteController.delete);
+router.post('/:id/like', quoteController.like);
 
 module.exports = router;
+
